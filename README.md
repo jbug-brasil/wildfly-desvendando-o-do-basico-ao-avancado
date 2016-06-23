@@ -1,6 +1,6 @@
 # WildFly - Um livro Opensource
 
-Este livro tem como finalidade levar a comunidade um conteúdo rico para o público e/ou usuários de WildFly do Brasil, porque não há muitos livros em Português e queremos cada vez mais usuários brasileiros utilizem o WildFly e o conheçam suas funcionalidades e como utilizá-las/configurá-las.
+Este livro tem como finalidade levar a comunidade um conteúdo rico para o público e/ou usuários de WildFly do Brasil, porque não há muitos livros em Português e queremos que cada vez mais usuários brasileiros utilizem o WildFly e conheçam suas funcionalidades bem como utilizá-las/configurá-las.
 
 
 ### Contribuições
@@ -17,3 +17,6 @@ Estamos no irc: *#jbug-brasil* no freenode e jboss.org *https://developer.jboss.
 
 ### Erros? :-)
 Achou algum erro de qualquer espécie ou até mesmo algum conteúdo que você não concorde sinta-se a vontade para corrigir.
+
+
+### Autores
