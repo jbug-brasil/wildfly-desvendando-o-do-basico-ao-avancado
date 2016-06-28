@@ -5,7 +5,7 @@
   * Instalação
     * Downloads
     * Requisitos
-  * Criando usuário de gerenciamento
+    * Criando usuário de gerenciamento
 * Estrutura - Cada coisa em seu lugar!
   * Diretórios
   * Arquivos de configuração
