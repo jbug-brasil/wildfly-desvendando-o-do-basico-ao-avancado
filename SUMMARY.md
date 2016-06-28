@@ -22,7 +22,12 @@
     * Instalando driver JDBC como módulo
   * Configurando envio de email
     * Enviando seu primeiro email com uma aplicação java
-* 
+  * Socket-bindings
+    * Entendendo
+    * Como configurar
+  * 
+
+
 
 
  
