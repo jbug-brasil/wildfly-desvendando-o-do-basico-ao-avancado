@@ -17,6 +17,10 @@
 * Configurando WildFly 10
   * Gerenciando System properties
   * Configurando o subsystem logging
-  * 
+  * Configurando data sources
+    * Utilizando JDBC driver como deployment
+    * Instalando JDBC driver como módulo
+* 
+
  
 
