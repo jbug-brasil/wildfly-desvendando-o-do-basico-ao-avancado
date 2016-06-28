@@ -20,7 +20,10 @@
   * Configurando data sources
     * Utilizando driver JDBC como deployment
     * Instalando driver JDBC como módulo
+  * Configurando envio de email
+    * Enviando seu primeiro email com uma aplicação java
 * 
+
 
  
 
