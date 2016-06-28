@@ -18,8 +18,8 @@
   * Gerenciando System properties
   * Configurando o subsystem logging
   * Configurando data sources
-    * Utilizando JDBC driver como deployment
-    * Instalando JDBC driver como módulo
+    * Utilizando driver JDBC como deployment
+    * Instalando driver JDBC como módulo
 * 
 
  
