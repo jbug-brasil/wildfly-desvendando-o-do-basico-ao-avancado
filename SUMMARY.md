@@ -17,7 +17,7 @@
    * [Definindo dependências explícitas de módulos em sua aplicação](definindo_dependencias_explicitas_de_modulos_em_su.md)
 * [Configurando WildFly 10](configurando_wildfly_10.md)
    * [Gerenciando System properties](gerenciando_system_properties.md)
-   * Configurando o subsystem logging
+   * [Configurando o subsystem logging](configurando_o_subsystem_logging.md)
    * Configurando data sources
        * Utilizando driver JDBC como deployment
        * Instalando driver JDBC como módulo
