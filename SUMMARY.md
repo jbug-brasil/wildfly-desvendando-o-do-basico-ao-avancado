@@ -12,7 +12,7 @@
    * [Arquivos de configuração](arquivos_de_configuracao.md)
    * [Modo Standalone x Domain](modo_standalone_x_domain.md)
 * [Classloader Modular](classloader_modular.md)
-   * O que é e como funciona?
+   * [O que é e como funciona?](o_que_e_e_como_funciona.md)
    * Adicionando um módulo customizado
    * Definindo dependências explícitas de módulos em sua aplicação
 * Configurando WildFly 10
