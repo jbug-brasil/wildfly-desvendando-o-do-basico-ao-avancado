@@ -7,7 +7,7 @@
        * Downloads
        * Requisitos
        * Criando usuário de gerenciamento
-* Estrutura - Cada coisa em seu lugar!
+* [Estrutura - Cada coisa em seu lugar!](estrutura_-_cada_coisa_em_seu_lugar.md)
    * Diretórios
    * Arquivos de configuração
    * Modo Standalone x Domain
