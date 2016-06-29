@@ -20,7 +20,7 @@
    * [Configurando o subsystem logging](configurando_o_subsystem_logging.md)
    * [Configurando data sources](configurando_data_sources.md)
        * [Utilizando driver JDBC como deployment](utilizando_driver_jdbc_como_deployment.md)
-       * Instalando driver JDBC como módulo
+       * [Instalando driver JDBC como módulo](instalando_driver_jdbc_como_modulo.md)
    * Configurando envio de email
        * Enviando seu primeiro email com uma aplicação java
    * Socket-bindings
