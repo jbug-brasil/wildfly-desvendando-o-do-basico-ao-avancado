@@ -15,7 +15,7 @@
    * [O que é e como funciona?](o_que_e_e_como_funciona.md)
    * [Adicionando um módulo customizado](adicionando_um_modulo_customizado.md)
    * [Definindo dependências explícitas de módulos em sua aplicação](definindo_dependencias_explicitas_de_modulos_em_su.md)
-* Configurando WildFly 10
+* [Configurando WildFly 10](configurando_wildfly_10.md)
    * Gerenciando System properties
    * Configurando o subsystem logging
    * Configurando data sources
