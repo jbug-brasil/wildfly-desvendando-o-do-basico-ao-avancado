@@ -19,7 +19,7 @@
    * [Gerenciando System properties](gerenciando_system_properties.md)
    * [Configurando o subsystem logging](configurando_o_subsystem_logging.md)
    * [Configurando data sources](configurando_data_sources.md)
-       * Utilizando driver JDBC como deployment
+       * [Utilizando driver JDBC como deployment](utilizando_driver_jdbc_como_deployment.md)
        * Instalando driver JDBC como módulo
    * Configurando envio de email
        * Enviando seu primeiro email com uma aplicação java
