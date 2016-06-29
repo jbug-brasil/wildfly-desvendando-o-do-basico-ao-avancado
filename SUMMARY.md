@@ -8,7 +8,7 @@
        * Requisitos
        * Criando usuário de gerenciamento
 * [Estrutura - Cada coisa em seu lugar!](estrutura_-_cada_coisa_em_seu_lugar.md)
-   * Diretórios
+   * [Diretórios](diretorios.md)
    * Arquivos de configuração
    * Modo Standalone x Domain
 * Classloader Modular
