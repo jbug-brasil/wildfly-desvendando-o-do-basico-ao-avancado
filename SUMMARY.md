@@ -18,7 +18,7 @@
 * [Configurando WildFly 10](configurando_wildfly_10.md)
    * [Gerenciando System properties](gerenciando_system_properties.md)
    * [Configurando o subsystem logging](configurando_o_subsystem_logging.md)
-   * Configurando data sources
+   * [Configurando data sources](configurando_data_sources.md)
        * Utilizando driver JDBC como deployment
        * Instalando driver JDBC como módulo
    * Configurando envio de email
