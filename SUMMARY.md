@@ -24,6 +24,6 @@
    * [Configurando envio de email](configurando_envio_de_email.md)
        * [Enviando seu primeiro email com uma aplicação java](enviando_seu_primeiro_email_com_uma_aplicacao_java.md)
    * [Socket-bindings](socket-bindings.md)
-       * Entendendo
+       * [Entendendo](entendendo.md)
        * Como configurar
 
