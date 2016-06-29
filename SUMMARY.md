@@ -21,7 +21,7 @@
    * [Configurando data sources](configurando_data_sources.md)
        * [Utilizando driver JDBC como deployment](utilizando_driver_jdbc_como_deployment.md)
        * [Instalando driver JDBC como módulo](instalando_driver_jdbc_como_modulo.md)
-   * Configurando envio de email
+   * [Configurando envio de email](configurando_envio_de_email.md)
        * Enviando seu primeiro email com uma aplicação java
    * Socket-bindings
        * Entendendo
