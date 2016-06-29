@@ -11,7 +11,7 @@
    * [Diretórios](diretorios.md)
    * [Arquivos de configuração](arquivos_de_configuracao.md)
    * [Modo Standalone x Domain](modo_standalone_x_domain.md)
-* Classloader Modular
+* [Classloader Modular](classloader_modular.md)
    * O que é e como funciona?
    * Adicionando um módulo customizado
    * Definindo dependências explícitas de módulos em sua aplicação
