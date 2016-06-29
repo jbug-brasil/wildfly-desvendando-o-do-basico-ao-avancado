@@ -16,7 +16,7 @@
    * [Adicionando um módulo customizado](adicionando_um_modulo_customizado.md)
    * [Definindo dependências explícitas de módulos em sua aplicação](definindo_dependencias_explicitas_de_modulos_em_su.md)
 * [Configurando WildFly 10](configurando_wildfly_10.md)
-   * Gerenciando System properties
+   * [Gerenciando System properties](gerenciando_system_properties.md)
    * Configurando o subsystem logging
    * Configurando data sources
        * Utilizando driver JDBC como deployment
