@@ -4,9 +4,9 @@
 * [Introdução](introducao.md)
    * [Por que Utilizar Um Servidor de Aplicação?](por_que_utilizar_um_servidor_de_aplicacao.md)
    * [Instalação](instalacao.md)
+       * Downloads
        * [Requisitos](requisitos.md)
        * [Criando usuário de gerenciamento](criando_usuario_de_gerenciamento.md)
-       * Downloads
 * [Estrutura - Cada coisa em seu lugar!](estrutura_-_cada_coisa_em_seu_lugar.md)
    * [Diretórios](diretorios.md)
    * [Arquivos de configuração](arquivos_de_configuracao.md)
