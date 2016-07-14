@@ -13,7 +13,7 @@ Qualquer contribuição é bem vinda, clone o projeto, faça suas alterações e
 
 ### Comunidade
 Estamos no irc: *#jbug-brasil* no freenode e jboss.org *https://developer.jboss.org/groups/jbug-brasil*
-
+E também no telegram, grupo JBug Brasil.
 
 ### Erros? :-)
 Achou algum erro de qualquer espécie ou até mesmo algum conteúdo que você não concorde sinta-se a vontade para corrigir.
@@ -21,3 +21,6 @@ Achou algum erro de qualquer espécie ou até mesmo algum conteúdo que você n�
 
 ### Autores
 @spolti
+
+
+### Contribuidores da comunidade
