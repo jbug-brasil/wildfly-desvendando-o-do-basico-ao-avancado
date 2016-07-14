@@ -6,7 +6,7 @@
    * [Instalação](instalacao.md)
        * [Requisitos](requisitos.md)
        * [Downloads](downloads.md)
-       * Instalação passo a passo
+       * [Instalação passo a passo](instalacao_passo_a_passo.md)
        * [Criando usuário de gerenciamento](criando_usuario_de_gerenciamento.md)
 * [Estrutura - Cada coisa em seu lugar!](estrutura_-_cada_coisa_em_seu_lugar.md)
    * [Diretórios](diretorios.md)
