@@ -3,13 +3,11 @@
 * [Introduction](README.md)
 * [Introdução](chapter1.md)
    * [Por que Utilizar Um Servidor de Aplicação?](por_que_utilizar_um_servidor_de_aplicacao.md)
-   * [Downloads](downloads.md)
-       * Inistalando passo a passo
    * [Instalação](instalacao.md)
        * [Requisitos](requisitos.md)
-       * [Downloads](downloads.md)
-           * Inistalando passo a passo
        * [Criando usuário de gerenciamento](criando_usuario_de_gerenciamento.md)
+   * [Downloads](downloads.md)
+       * Inistalando passo a passo
 * [Estrutura - Cada coisa em seu lugar!](estrutura_-_cada_coisa_em_seu_lugar.md)
    * [Diretórios](diretorios.md)
    * [Arquivos de configuração](arquivos_de_configuracao.md)
