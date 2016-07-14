@@ -7,7 +7,7 @@
        * [Requisitos](requisitos.md)
        * [Criando usuário de gerenciamento](criando_usuario_de_gerenciamento.md)
    * [Downloads](downloads.md)
-       * [Inistalando passo a passo](inistalando_passo_a_passo.md)
+       * [Instalando - passo a passo](inistalando_passo_a_passo.md)
 * [Estrutura - Cada coisa em seu lugar!](estrutura_-_cada_coisa_em_seu_lugar.md)
    * [Diretórios](diretorios.md)
    * [Arquivos de configuração](arquivos_de_configuracao.md)
