@@ -2,7 +2,7 @@
 
 * [Pré introdução](README.md)
 * [Introdução](introducao.md)
-   * [Por que Utilizar Um Servidor de Aplicação?](por_que_utilizar_um_servidor_de_aplicacao.md)
+   * [O que é o Wildfly?](por_que_utilizar_um_servidor_de_aplicacao.md)
    * [Instalação](instalacao.md)
        * [Requisitos](requisitos.md)
        * [Downloads](downloads.md)
