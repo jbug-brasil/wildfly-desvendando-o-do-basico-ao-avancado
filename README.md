@@ -17,7 +17,7 @@ Estamos no irc: *#jbug-brasil* no freenode e jboss.org *https://developer.jboss.
 E também no telegram, grupo JBug Brasil.
 
 ### Erros? :-)
-Achou algum erro de qualquer espécie ou até mesmo algum conteúdo que você não concorde sinta-se a vontade para corrigir.
+Achou algum erro de qualquer espécie ou até mesmo algum conteúdo que você não concorde? Sinta-se a vontade para corrigir ou enviar sugestões.
 
 
 ### Autores
