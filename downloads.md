@@ -30,7 +30,7 @@ Neste caso irei utilizar a versão 8 do Java que pode ser encontrado neste [link
     sudo apt-get install openjdk-8-jdk
 
   
-Após a finalização verifique se o JAva foi corretamente instalado e configurado, para isso basta executar o seguinte comando:
+Após a finalização verifique se o Java foi corretamente instalado e configurado, para isso basta executar o seguinte comando:
 
 
 ```
