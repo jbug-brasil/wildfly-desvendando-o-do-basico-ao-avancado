@@ -13,10 +13,29 @@ Neste caso irei utilizar a versão 8 do Java que pode ser encontrado neste [link
 
   Lembre-se que para realizar o download do Java é necessário escolher o binário de acordo com o Sistema Operacional que estiver utilizando. Neste caso estaremos utilizando o seguinte binário: **jdk-8u101-linux-x64.rpm**.
   Se preferir você também pode utilizar o OpenJDK, o que torna a instalação bem mais simples no **Linux**
-  Exemplo:
-    ```sh
+  Exemplo (**Red Hat like**):
+  
+    ```
+    CentOS 7+ ou Fedora 22+
     sudo dnf install java -y
     
-    Or
+    Ou
     
     sudo yum install java -y
+    ```
+
+  Porém se estiver utilizando um Sistema **Debian Like**
+    
+    ```
+    sudo apt-get install openjdk-8-jdk
+   ```
+  
+Após a finalização verifique se o JAva foi corretamente instalado e configurado, para isso basta executar o seguinte comando:
+
+```
+$ java -version
+openjdk version "1.8.0_101"
+OpenJDK Runtime Environment (build 1.8.0_101-b14)
+OpenJDK 64-Bit Server VM (build 25.101-b14, mixed mode)
+
+```
