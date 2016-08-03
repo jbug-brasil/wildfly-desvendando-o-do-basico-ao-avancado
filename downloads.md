@@ -15,20 +15,20 @@ Neste caso irei utilizar a versão 8 do Java que pode ser encontrado neste [link
   Se preferir você também pode utilizar o OpenJDK, o que torna a instalação bem mais simples no **Linux**
   Exemplo (**Red Hat like**):
   
-    ```
+
     CentOS 7+ ou Fedora 22+
     sudo dnf install java -y
     
     Ou
     
     sudo yum install java -y
-    ```
+
 
   Porém se estiver utilizando um Sistema **Debian Like**
     
-    ```
+
     sudo apt-get install openjdk-8-jdk
-    ```
+
   
 Após a finalização verifique se o JAva foi corretamente instalado e configurado, para isso basta executar o seguinte comando:
 
