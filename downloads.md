@@ -28,9 +28,10 @@ Neste caso irei utilizar a versão 8 do Java que pode ser encontrado neste [link
     
     ```
     sudo apt-get install openjdk-8-jdk
-   ```
+    ```
   
 Após a finalização verifique se o JAva foi corretamente instalado e configurado, para isso basta executar o seguinte comando:
+
 
 ```
 $ java -version
@@ -39,3 +40,5 @@ OpenJDK Runtime Environment (build 1.8.0_101-b14)
 OpenJDK 64-Bit Server VM (build 25.101-b14, mixed mode)
 
 ```
+
+Se o resultado for semelhante a este você já está pronto para ir para o próximo tópico: `Instalação passo a passo`.
