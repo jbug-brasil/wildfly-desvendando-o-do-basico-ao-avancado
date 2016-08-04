@@ -45,7 +45,7 @@ total 0
 drwxr-xr-x. 10 root root 220 Jul 28 01:02 wildfly-10.1.0.CR1
 ```
 
-Note que as permissões de usuário e grupo estão configuradas para o usuário root, como boas práticas não iremos utilizar o usuário root para execução do WildFly, e sim o usuário criado anteriormente, altere as permissões com o seguinte comando:
+Note que as permissões de usuário e grupo estão configuradas para o usuário **root**, como boas práticas não iremos utilizar o usuário root para execução do WildFly, e sim o usuário criado anteriormente, altere as permissões com o seguinte comando:
 
 ```
 # chown -R wildfly. /opt/wildfly-10.1.0.CR1/
