@@ -8,7 +8,7 @@ Este livro tem como finalidade levar a comunidade um conteúdo rico para o públ
 O livro está em constante edição e sempre que achar que algum conteúdo ainda não abordado é interessante por favor nos envie sua sugestão.
 Qualquer contribuição é bem vinda, clone o projeto, faça suas alterações e nos envie um pull request para que possamos validar o conteúdo que você escreveu.
 
-Utilize o github para realizar fork deste livro e efetuar suas alterações.
+Utilize o github para realizar fork deste livro e efetuar suas alterações. Maiores informações podem ser encontradas no link abaixo.
 
 
 ### Comunidade
