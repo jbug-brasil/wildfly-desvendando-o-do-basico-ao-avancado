@@ -26,7 +26,38 @@ Obs: O banco de dados não será necessário neste primeiro momento, mas será u
   
   Eu sempre costumo usar o diretório **/opt**, lembrando, isto não é uma regra.
   Vamos agora descompactar o WildFly no diretório escolhido:
-    
-> s
+
+```
+# tar -xzvf wildfly-10.1.0.CR1.tar.gz --directory /opt
+```
+
+Ou se prefere utilizar o arquivo com extensão *.zip*:
+
+```
+unzip wildfly-10.1.0.CR1.zip -d /opt
+```
+
+Neste momento já temos o servidor WildFLy descompactado no diretório **/opt**:
+
+```
+# ll /opt
+total 0
+drwxr-xr-x. 10 root root 220 Jul 28 01:02 wildfly-10.1.0.CR1
+```
+
+Note que as permissões de usuário e grupo estão configuradas para o usuário root, como boas práticas não iremos utilizar o usuário root para execução do WildFly, e sim o usuário criado anteriormente, altere as permissões com o seguinte comando:
+
+```
+# chown -R wildfly. /opt/wildfly-10.1.0.CR1/
+```
+
+Agora podemos utilizar o usuário **wildfly** para executar o Servidor.
+Abra um shell utilizando este usuário e em seguida acesso o diretório *wildfly-10.1.0.CR1*:
+
+```
+[root@wfly-server ~]# su - wildfly
+[wildfly@wfly-server ~]$ cd /opt/wildfly-10.1.0.CR1/
+[wildfly@wfly-server wildfly-10.1.0.CR1]$ 
+```
 
 
