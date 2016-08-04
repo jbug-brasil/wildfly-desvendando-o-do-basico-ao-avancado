@@ -10,8 +10,17 @@ Bom, como todos nós temos o direito de escolha, para ilustrar os exemplos deste
 Obs: O banco de dados não será necessário neste primeiro momento, mas será utilizado em capítulos futuros.
 
 
+##### Primeiro passo: Definindo um usuário para Runtime
 
-### # Primeiro passo: Escolhendo o diretório de instalação
+  Segurança em primeiro lugar, evite ao máximo utilizar o usuário **root** para executar o WildFly porque desta forma estaremos protegendo o servidor como um todo de forma que uma aplicação que permita execução de códigos arbritrários não execute nada no servidor com um usuário privilegiado.
+  Neste case utilizarei um usuário chamado **wildfly**, para criar o usuário execute o seguinte comando:
+  
+  ```
+  # useradd wildfly
+  ```
+
+
+##### Segundo passo: Escolhendo o diretório de instalação
 
   Esta é realmente a primeira dúvida que temos ao realizar a instalação de qualquer aplicação em nossos servidores, com o WildFly não é diferente. Em poucas palavras, não existe um padrão definido que todos devem seguir, porém muitos administradores acabam escolhendo um determinado modelo a seguir para que todos os servidores possuam os mesmos diretórios/estrutura, isso que, facilita e muito a administração.
   
