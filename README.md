@@ -6,9 +6,7 @@ Este livro tem como finalidade levar a comunidade um conteúdo rico para o públ
 ### Contribuições
 
 O livro está em constante edição e sempre que achar que algum conteúdo ainda não abordado é interessante por favor nos envie sua sugestão.
-
 Qualquer contribuição é bem vinda, clone o projeto, faça suas alterações e nos envie para que possamos validar o conteúdo que você escreveu.
-
 
 
 ### Comunidade
