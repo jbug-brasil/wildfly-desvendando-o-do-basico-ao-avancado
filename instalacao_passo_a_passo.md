@@ -130,4 +130,4 @@ Acesse o servidor utilizando o endereço **http://localhost:8080**, a seguinte p
 ![](Screenshot from 2016-08-17 18-00-19.png)
 
 
-No pŕoximo tópico abordaremos a criação do usuário de gerenciamento do WildFly.
+No próximo tópico abordaremos a criação do usuário de gerenciamento do WildFly.
