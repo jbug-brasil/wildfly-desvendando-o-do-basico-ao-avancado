@@ -125,3 +125,9 @@ Caso ocorra tudo bem durante a inicialização do WildFly você terá um log mui
 12:33:30,013 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.CR1 (WildFly Core 2.2.0.CR9) started in 4417ms - Started 331 of 577 services (393 services are lazy, passive or on-demand)
 ```
 
+Acesse o servidor utilizando o endereço **http://localhost:8080**, a seguinte página deverá ser exibida:
+
+![](Screenshot from 2016-08-17 18-00-19.png)
+
+
+No pŕoximo tópico abordaremos a criação do usuário de gerenciamento do WildFly.
