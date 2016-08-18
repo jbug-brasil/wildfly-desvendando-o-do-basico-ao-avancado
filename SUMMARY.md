@@ -1,6 +1,6 @@
 # Summary
 
-* [Pré introdução](README.md)
+* [Prefácio](README.md)
 * [Introdução](introducao.md)
    * [O que é o Wildfly?](o_que_e_wildfly.md)
    * [Instalação](instalacao.md)
@@ -12,10 +12,10 @@
    * [Diretórios](diretorios.md)
    * [Arquivos de configuração](arquivos_de_configuracao.md)
    * [Modo Standalone x Domain](modo_standalone_x_domain.md)
-* [Classloader Modular](classloader_modular.md)
-   * [O que é e como funciona?](o_que_e_e_como_funciona.md)
-   * [Adicionando um módulo customizado](adicionando_um_modulo_customizado.md)
-   * [Definindo dependências explícitas de módulos em sua aplicação](definindo_dependencias_explicitas_de_modulos_em_su.md)
+* [Classloader Modular](classloader/introducao.md)
+   * [O que é e como funciona?](classloader/como_funciona.md)
+   * [Adicionando um módulo customizado](classloader/modulo_customizado.md)
+   * [Definindo dependências explícitas de módulos em sua aplicação](classloader/dependencias_explicitas.md)
 * [Configurando WildFly 10](configurando_wildfly_10.md)
    * [Gerenciando System properties](gerenciando_system_properties.md)
    * [Configurando o subsystem logging](configurando_o_subsystem_logging.md)
