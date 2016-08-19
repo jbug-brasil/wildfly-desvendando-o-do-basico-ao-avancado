@@ -6,7 +6,7 @@ Uma vez que criamos nosso módulo customizado, devemos agora definir as dependê
     <deployment>  
          <dependencies>  
               <module name="com.myjars.jfreechart" />  
-              <module name="com.myjars.jcommon" />  
+              <module name="com.myjars.jcommon" />  "Não seria só o nome do módulo aqui?"
         </dependencies>  
     </deployment>  
 </jboss-deployment-structure> 
