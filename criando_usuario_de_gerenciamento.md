@@ -73,9 +73,21 @@ Neste momento já estamos aptos a acessar a Console de Gerenciamento, tente aces
 ![](Screenshot from 2016-08-19 16-03-40.png)
 
 
+####Dicas
 
+######Criando usuário somente com um comando:
+```
+$WFLY_HOME/bin/add-user.sh -a admin2 -p teste@123 -s -e
+```
 
-
-
-
-
+######Criando usuários com senhas fracas (não permitido através do script)
+Este método não é recomendado, nunca use-o em produção.
+```
+ echo -n "username:ManagementRealm:password" | openssl md5
+ (stdin)= 8959126dd54df47f694cd762a51a1a6f
+```
+Com o *hash* em mãos edite o arquivo **$WFLY_HOME/standalone/configuration/mgmt-users.properties** e adicione o novo usuário seguido do hash, exemplo:
+```
+username=8959126dd54df47f694cd762a51a1a6f
+```
+Caso deseje criar um *application* user altere a Realm para **ApplicationRealm**.
