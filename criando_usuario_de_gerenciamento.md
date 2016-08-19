@@ -42,6 +42,26 @@ User 'admin' already exists and is disabled, would you like to...
  c) Type a new username
 (a): 
 ```
+Você terá a opção de atualizar usuário existente e seus grupos, ativar o usuário existente ou digitar um novo username.
+Neste caso iremos somente atualizar a senha do usuário **admin**, por default esta opção já está selecionada, apenas tecle *enter*.
+Agora defina a senha:
+```
+Password recommendations are listed below. To modify these restrictions edit the add-user.properties configuration file.
+ - The password should be different from the username
+ - The password should not be one of the following restricted values {root, admin, administrator}
+ - The password should contain at least 8 characters, 1 alphabetic character(s), 1 digit(s), 1 non-alphanumeric symbol(s)
+Password : 
+Re-enter Password : 
+```
+O próximo passo é definir os grupos, no momento não será necessário definir nenhum, apenas prossiga:?
+```
+What groups do you want this user to belong to? (Please enter a comma separated list, or leave blank for none)[  ]: 
+Updated user 'admin' to file '/dados/server/wildfly-10.0.0.Final/standalone/configuration/mgmt-users.properties'
+Updated user 'admin' to file '/dados/server/wildfly-10.0.0.Final/domain/configuration/mgmt-users.properties'
+Updated user 'admin' with groups  to file '/dados/server/wildfly-10.0.0.Final/standalone/configuration/mgmt-groups.properties'
+Updated user 'admin' with groups  to file '/dados/server/wildfly-10.0.0.Final/domain/configuration/mgmt-groups.properties'
+```
+
 
 
 
