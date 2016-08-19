@@ -34,6 +34,14 @@ Enter the details of the new user to add.
 Using realm 'ManagementRealm' as discovered from the existing property files.
 Username : admin  
 ```
+Logo a seguir você será informado que o usuário **admin** já existe porém está desativado e irá lhe mostrar as opções disponíveis:
+```
+User 'admin' already exists and is disabled, would you like to... 
+ a) Update the existing user password and roles 
+ b) Enable the existing user 
+ c) Type a new username
+(a): 
+```
 
 
 
