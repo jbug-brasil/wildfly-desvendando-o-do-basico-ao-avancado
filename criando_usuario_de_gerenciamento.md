@@ -77,7 +77,7 @@ Neste momento já estamos aptos a acessar a Console de Gerenciamento, tente aces
 
 ######Criando usuário somente com um comando:
 ```
-$WFLY_HOME/bin/add-user.sh -a admin2 -p teste@123 -s -e
+$WFLY_HOME/bin/add-user.sh -u admin2 -p teste@123 -s -e
 ```
 
 ######Criando usuários com senhas fracas (não permitido através do script)
