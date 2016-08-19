@@ -68,19 +68,9 @@ e.g. for a slave host controller connecting to the master or for a Remoting conn
 yes/no? no
 ```
 
+Neste momento já estamos aptos a acessar a Console de Gerenciamento, tente acessá-la novamente e utilize as credenciais que criamos, caso esteja tudo certo você será redirecionado para a página principal:
 
-
-
-
-
-
-
-
-
-
-
-
-
+![](Screenshot from 2016-08-19 16-03-40.png)
 
 
 
