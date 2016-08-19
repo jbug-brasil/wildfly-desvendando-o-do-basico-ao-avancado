@@ -5,7 +5,7 @@ Uma vez que criamos nosso módulo customizado, devemos agora definir as dependê
 <jboss-deployment-structure>  
     <deployment>  
          <dependencies>  
-              <module name="com.myjars.jfreechart" />  
+              <module name="com.myjars.jfreechart" slot="main" ou slot="1.2...."/>  correto?
               <module name="com.myjars.jcommon" />  "Não seria só o nome do módulo aqui?"
         </dependencies>  
     </deployment>  
