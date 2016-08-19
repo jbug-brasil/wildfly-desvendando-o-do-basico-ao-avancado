@@ -61,6 +61,12 @@ Updated user 'admin' to file '/dados/server/wildfly-10.0.0.Final/domain/configur
 Updated user 'admin' with groups  to file '/dados/server/wildfly-10.0.0.Final/standalone/configuration/mgmt-groups.properties'
 Updated user 'admin' with groups  to file '/dados/server/wildfly-10.0.0.Final/domain/configuration/mgmt-groups.properties'
 ```
+O script irá perguntá-lo se se este usuário será utilizado para autenticação entre 2 servidores WildFly (Veremos com mais detalhes este processo na configuração do modo **Domain**). Neste caso será um usuário normal, digite *no* e tecle *enter*
+```
+Is this new user going to be used for one AS process to connect to another AS process? 
+e.g. for a slave host controller connecting to the master or for a Remoting connection for server to server EJB calls.
+yes/no? no
+```
 
 
 
