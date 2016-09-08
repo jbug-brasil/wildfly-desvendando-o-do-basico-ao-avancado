@@ -61,10 +61,12 @@ Veremos agora a função de cada diretório e o que é armazenado em cada um:
     Note que ele está utilizando a versão 3.0 do schema **logging**. Este mesmo padrão é válido para todos os outros *subsystems*.
    
     
-* **domain** - xcvxc
-  * **configuration** - 
+* **domain** - Abriga toda a configuração do modo domain bem como os arquivos dos servidores gerenciados (veremos melhor sobre isso mais a frente) e arquivos de deployments, arquivos temporários e arquivos de logs.
+  * **configuration** - Contém todos os arquivos de configuração.
   * **data** - 
-  * **tmp** - 
+  * **tmp** - Utilizado e gerado em Runtime, reponsável por armazenar todos os arquivos temporários gerados durante a execução do servidor.
+
+
 * **modules** - 
 * **standalone** - 
   * **configuration** - 
