@@ -62,19 +62,19 @@ Veremos agora a função de cada diretório e o que é armazenado em cada um:
    
     
 * **domain** - xcvxc
-* **configuration** - 
-* **data** - 
-* **tmp** - 
+  * **configuration** - 
+  * **data** - 
+  * **tmp** - 
 * **modules** - 
 * **standalone** - 
-* **configuration** - 
-* **standalone_xml_history** - 
-* **current** - 
-* **snapshot** - 
-* **data** - 
-* **deployments** - 
-* **lib** - 
-* **log** - 
-* **tmp** - 
+  * **configuration** - 
+    * **standalone_xml_history** - 
+      * **current** - 
+      * **snapshot** - 
+  * **data** - 
+  * **deployments** - 
+  * **lib** - 
+  * **log** - 
+  * **tmp** - 
 * **welcome-content** - 
 
