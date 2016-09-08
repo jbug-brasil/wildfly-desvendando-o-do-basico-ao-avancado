@@ -62,8 +62,8 @@ Veremos agora a função de cada diretório e o que é armazenado em cada um:
    
     
 * **domain** - Abriga toda a configuração do modo domain bem como os arquivos dos servidores gerenciados (veremos melhor sobre isso mais a frente) e arquivos de deployments, arquivos temporários e arquivos de logs.
-  * **configuration** - Contém todos os arquivos de configuração.
-  * **data** - 
+  * **configuration** - Contém todos os arquivos de configuração do modo domínio.
+  * **data** - Diretório utilizado para persistir dados para que seja possível um restart sem perda de imformação.
   * **tmp** - Utilizado e gerado em Runtime, reponsável por armazenar todos os arquivos temporários gerados durante a execução do servidor.
 
 
