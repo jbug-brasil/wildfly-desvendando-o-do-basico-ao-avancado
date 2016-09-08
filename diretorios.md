@@ -41,19 +41,25 @@ $JBOSS_HOME
 
 Veremos agora a função de cada diretório e o que é armazenado em cada um:
 
-* **appclient** - 
+* **appclient** - asfsdasd
+
+
 * **bin** - Todos os binários do servidor serão encontratos neste diretório, tais como standalone/domain.sh|bat, script para adição de usuários, etc.
   * **client** - Neste subdiretório está armazenados as bibliotecas necessárias para se conectar ao Wildfly utilizando JBoss CLI, EJB ou JMS.
-* **docs** - 
-  * **contrib** - 
-    * **scripts** - 
-      * **init.d** - 
-      * **service** - 
-      * **systemd** - 
+
+
+* **docs** - Aqui você irá encontrar diversos tipos de arquivos como exemplos de configuração, exemplos se como executar o WildFLy como serviço, licenças e outros arquivos que lhe ajudarão a aprender mais sobre o WildFly.
+  * **contrib** - Arquivos utilizados para executar o WildFly como serviço.
+    * **scripts** - Scripts para configuração do WildFly como serviço.
+      * **init.d** - Arquivos necessários para executar como serviço no Linux Linux baseado no gerenciador de serviços **init.d**.
+      * **service** - Arquivos necessários para executar como serviço no Windows
+      * **systemd** - Arquivos necessários para executar como serviço no Linux baseado no gerenciador de serviços **systemd**.
   * **examples** - 
     * **configs** - 
   * **licenses** - 
   * **schema** - 
+
+
 * **domain** - 
 * **configuration** - 
 * **data** - 
