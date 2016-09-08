@@ -53,9 +53,15 @@ Veremos agora a função de cada diretório e o que é armazenado em cada um:
       * **systemd** - Arquivos necessários para executar como serviço no Linux baseado no gerenciador de serviços **systemd**.
   * **examples** - Contém exempls arquivos de configuração do modo standaloe pré configurados.
   * **licenses** - Contém todas as licenças sob o qual o código fonte do WildFLy está protegido.
-  * **schema** - 
-
-* **domain** - 
+  * **schema** - São os arquivos que definem as configurações/parâmetros aceitos nos *subsystems* presentes nos arquivos de configuração do Wildly, note que sua nomenclatura contém a versão do schema, asim como no arquivo de configuração contém a versão do schema que será utilizado para a configuração de determinado *subsystem*, Exemplo: Dado o seguinte *subsystem*: 
+   
+    ```xml
+    <subsystem xmlns="urn:jboss:domain:logging:3.0">
+    ```
+    Note que ele está utilizando a versão 3.0 do schema **logging**. Este mesmo padrão é válido para todos os outros *subsystems*.
+   
+    
+* **domain** - xcvxc
 * **configuration** - 
 * **data** - 
 * **tmp** - 
