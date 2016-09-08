@@ -18,7 +18,6 @@ $JBOSS_HOME
   │   │       ├── service
   │   │       └── systemd
   │   ├── examples
-  │   │   └── configs
   │   ├── licenses
   │   └── schema
   ├── domain
@@ -54,8 +53,7 @@ Veremos agora a função de cada diretório e o que é armazenado em cada um:
       * **init.d** - Arquivos necessários para executar como serviço no Linux Linux baseado no gerenciador de serviços **init.d**.
       * **service** - Arquivos necessários para executar como serviço no Windows
       * **systemd** - Arquivos necessários para executar como serviço no Linux baseado no gerenciador de serviços **systemd**.
-  * **examples** - 
-    * **configs** - 
+  * **examples** - Contém exempls arquivos de configuração do modo standaloe pré configurados.
   * **licenses** - 
   * **schema** - 
 
