@@ -41,33 +41,33 @@ $JBOSS_HOME
 
 Veremos agora a função de cada diretório e o que é armazenado em cada um:
 
-* **appclient**
-* **bin**
-* **client**
-* **docs**
-* **contrib**
-* **scripts**
-* **init.d**
-* **service**
-* **systemd**
-* **examples**
-* **configs**
-* **licenses**
-* **schema**
-* **domain**
-* **configuration**
-* **data**
-* **tmp**
-* **modules**
-* **standalone**
-* **configuration**
-* **standalone_xml_history**
-* **current**
-* **snapshot**
-* **data**
-* **deployments**
-* **lib**
-* **log**
-* **tmp**
-* **welcome-content**
+* **appclient** - 
+* **bin** - Todos os binários do servidor serão encontratos neste diretório, tais como standalone/domain.sh|bat, script para adição de usuários, etc.
+  * **client** - Neste subdiretório está armazenados as bibliotecas necessárias para se conectar ao Wildfly utilizando JBoss CLI, EJB ou JMS.
+* **docs** - 
+  * **contrib** - 
+    * **scripts** - 
+      * **init.d** - 
+      * **service** - 
+      * **systemd** - 
+  * **examples** - 
+    * **configs** - 
+  * **licenses** - 
+  * **schema** - 
+* **domain** - 
+* **configuration** - 
+* **data** - 
+* **tmp** - 
+* **modules** - 
+* **standalone** - 
+* **configuration** - 
+* **standalone_xml_history** - 
+* **current** - 
+* **snapshot** - 
+* **data** - 
+* **deployments** - 
+* **lib** - 
+* **log** - 
+* **tmp** - 
+* **welcome-content** - 
 
