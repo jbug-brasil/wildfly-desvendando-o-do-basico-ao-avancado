@@ -14,7 +14,7 @@ Caso você tente acessar a console de gerenciamento sem ter antes, criado o usu�
 
 * Acesse **http://localhost:9990**
 
-![](images/ng)
+![](images/wildfly-add-user-error.png)
 
 Para adicionar o usuário siga os passos a seguir:
 
@@ -70,7 +70,7 @@ yes/no? no
 
 Neste momento já estamos aptos a acessar a Console de Gerenciamento, tente acessá-la novamente e utilize as credenciais que criamos, caso esteja tudo certo você será redirecionado para a página principal:
 
-![](Screenshot from 2016-08-19 16-03-40.png)
+![](images/wildfly-console-gerenciamento.png)
 
 
 ####Dicas
