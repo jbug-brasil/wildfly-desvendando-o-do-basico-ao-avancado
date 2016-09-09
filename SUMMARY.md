@@ -4,7 +4,7 @@
 * [Introdução](introducao.md)
    * [O que é o Wildfly?](o_que_e_wildfly.md)
    * [Instalação](instalacao.md)
-       * [Requisitos](requisitos.md)
+       * [Requisitos](instalacao/requisitos.md)
        * [Downloads](downloads.md)
        * [Instalação passo a passo](instalacao_passo_a_passo.md)
        * [Criando usuário de gerenciamento](criando_usuario_de_gerenciamento.md)
