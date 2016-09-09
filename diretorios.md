@@ -22,8 +22,12 @@ $JBOSS_HOME
   │   └── schema
   ├── domain
   │   ├── configuration
+  │   │   └── domain_xml_history
+  │   │       ├── current
+  │   │       ├── snapshot
   │   ├── data
   │   └── tmp
+  │   └── servers
   ├── modules
   ├── standalone
   │   ├── configuration
@@ -40,7 +44,7 @@ $JBOSS_HOME
 
 Veremos agora a função de cada diretório e o que é armazenado em cada um:
 
-* **appclient** - asfsdasd
+* **appclient** - Este diretório é utilizado para armazenar arquivos de deployments, configuração e também utilizado como área de escrita utilizados pelo *application client container*.
 
 * **bin** - Todos os binários do servidor serão encontratos neste diretório, tais como standalone/domain.sh|bat, script para adição de usuários, etc.
   * **client** - Neste subdiretório está armazenados as bibliotecas necessárias para se conectar ao Wildfly utilizando JBoss CLI, EJB ou JMS.
