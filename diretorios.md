@@ -88,4 +88,4 @@ Veremos agora a função de cada diretório e o que é armazenado em cada um:
   * **lib/ext ** - Local utilizado para instalar bibliotecas utilizadas pelas aplicações através do mecanismo **Extension-List**.
   * **log** - Contém os logs do servidor em execuçaõ.
   * **tmp** - Diretório para escrita de arquivos temporários utilizados pelas aplicações em execução.
-* **welcome-content** - 
+* **welcome-content** - É um diretório de uso interno do servidor que não deve ser modificado por usuários finais, sua alteração pode influenciar no funcionamento do WildFly bem como páginas de boas vindas e páginas de erros.
