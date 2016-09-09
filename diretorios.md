@@ -68,7 +68,9 @@ Veremos agora a função de cada diretório e o que é armazenado em cada um:
   * **tmp** - Utilizado e gerado em Runtime, reponsável por armazenar todos os arquivos temporários gerados durante a execução do servidor.
 
 
-* **modules** - 
+* **modules** - O WildFly é baseado em um *classloader* modular (explicado em detalhes nos próximos tópicos), todos os módulos necessários para a execução do WildFly estão armazenados neste diretório, bem como os módulos customizados.
+
+
 * **standalone** - 
   * **configuration** - 
     * **standalone_xml_history** - 
