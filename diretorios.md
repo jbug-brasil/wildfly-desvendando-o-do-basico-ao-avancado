@@ -67,6 +67,9 @@ Veremos agora a função de cada diretório e o que é armazenado em cada um:
     
 * **domain** - Abriga toda a configuração do modo domain bem como os arquivos dos servidores gerenciados (veremos melhor sobre isso mais a frente) e arquivos de deployments, arquivos temporários e arquivos de logs.
   * **configuration** - Contém todos os arquivos de configuração do modo domínio.
+      * **domain_xml_history** - Contém todo o histórico dos arquivos de configuração.
+        * **current** - Armazena a configuração corrente com sufixos v1, v2, vX.
+        * **snapshot** - Armazena os snapshots, obtidos através do comando *CLI* **/host=NAME:take-snapshot**
   * **servers** - Diretório utilizado para armazenar informações referentes aos servidores gerenciados controlados pelo domínio em questão. Dentro do diretório com o respectivo nome do servidor gerenciado existem também seus subdiretórios **data**, **tmp** e **log**.
   * **data** - Diretório utilizado para persistir dados para que seja possível um restart sem perda de imformação.
   * **tmp** - Utilizado e gerado em Runtime, reponsável por armazenar todos os arquivos temporários gerados durante a execução do servidor.
@@ -75,11 +78,11 @@ Veremos agora a função de cada diretório e o que é armazenado em cada um:
 * **modules** - O WildFly é baseado em um *classloader* modular (explicado em detalhes nos próximos tópicos), todos os módulos necessários para a execução do WildFly estão armazenados neste diretório, bem como os módulos customizados.
 
 
-* **standalone** - 
-  * **configuration** - 
-    * **standalone_xml_history** - 
-      * **current** - 
-      * **snapshot** - 
+* **standalone** - Contém todos os arquivos necessários para a execuçaõ do WildFly no modo *standalone*.
+  * **configuration** - Contém todo o histórico dos arquivos de configuração.
+    * **standalone_xml_history** - Contém todo o histórico dos arquivos de configuração.
+      * **current** -  Armazena a configuração corrente com sufixos v1, v2, vX.
+      * **snapshot** - Armazena os snapshots, obtidos através do comando *CLI* **:take-snapshot**
   * **data** - 
   * **deployments** - 
   * **lib** - 
