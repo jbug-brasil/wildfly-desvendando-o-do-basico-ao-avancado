@@ -14,7 +14,7 @@ Caso você tente acessar a console de gerenciamento sem ter antes, criado o usu�
 
 * Acesse **http://localhost:9990**
 
-![](Screenshot from 2016-08-19 15-22-34.png)
+![](images/ng)
 
 Para adicionar o usuário siga os passos a seguir:
 
