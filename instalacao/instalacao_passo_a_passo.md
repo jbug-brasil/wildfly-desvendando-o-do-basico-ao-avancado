@@ -127,7 +127,7 @@ Caso ocorra tudo bem durante a inicialização do WildFly você terá um log mui
 
 Acesse o servidor utilizando o endereço **http://localhost:8080**, a seguinte página deverá ser exibida:
 
-![](images/wildfly-welcome.png)
+![](../images/wildfly-welcome.png)
 
 
 No próximo tópico abordaremos a criação do usuário de gerenciamento do WildFly.
