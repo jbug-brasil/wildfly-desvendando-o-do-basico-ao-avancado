@@ -1,5 +1,5 @@
 # ClassLoader Modular
-ClassLoaders são parte de qualquer aplicação Java, nela reserva a responsabilidade de carregar dinamicamente as classes para a Máquina Virtual Java (JVM) para então criar objetos a partir daquela classe. Geralmente essas classes são carregadas sob demanda, ou seja, à medida que objetos são instanciados o ClassLoader carrega o bytecode da classe em memória. 
+*ClassLoaders* são parte de qualquer aplicação Java, nela reserva a responsabilidade de carregar dinamicamente as classes para a Máquina Virtual Java (JVM) para então criar objetos a partir daquela classe. Geralmente essas classes são carregadas sob demanda, ou seja, à medida que objetos são instanciados o ClassLoader carrega o bytecode da classe em memória. 
 
 O ClassLoader é dividido em:
 
