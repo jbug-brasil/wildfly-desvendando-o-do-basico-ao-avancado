@@ -70,7 +70,7 @@ Veremos agora a função de cada diretório e o que é armazenado em cada um:
       * **domain_xml_history** - Contém todo o histórico dos arquivos de configuração.
         * **current** - Armazena a configuração corrente com sufixos v1, v2, vX.
         * **snapshot** - Armazena os snapshots, obtidos através do comando *CLI* **/host=NAME:take-snapshot**
-  * **servers** - Diretório utilizado para armazenar informações referentes aos servidores gerenciados controlados pelo domínio em questão. Dentro do diretório com o respectivo nome do servidor gerenciado existem também seus subdiretórios **data**, **tmp** e **log**.
+  * **servers** - Diretório utilizado para armazenar informações referentes aos servidores gerenciados controlados pelo domínio em questão. Dentro do diretório com o respectivo nome do servidor gerenciado existem também seus subdiretórios **data**, **tmp** e **log** cujo o objetivo é o mesmo do descrito no modo *standalone*.
   * **data** - Diretório utilizado para persistir dados para que seja possível um restart sem perda de imformação.
   * **tmp** - Utilizado e gerado em Runtime, reponsável por armazenar todos os arquivos temporários gerados durante a execução do servidor.
 
