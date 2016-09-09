@@ -10,7 +10,7 @@
        * [Criando usuário de gerenciamento](instalacao/criando_usuario_de_gerenciamento.md)
 * [Estrutura - Cada coisa em seu lugar!](estrutura_-_cada_coisa_em_seu_lugar.md)
    * [Diretórios](estrutura/diretorios.md)
-   * [Arquivos de configuração](arquivos_de_configuracao.md)
+   * [Arquivos de configuração](estrutura/arquivos_de_configuracao.md)
    * [Modo Standalone x Domain](modo_standalone_x_domain.md)
 * [Classloader Modular](classloader/introducao.md)
    * [O que é e como funciona?](classloader/como_funciona.md)
