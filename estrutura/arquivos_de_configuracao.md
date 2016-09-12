@@ -17,9 +17,22 @@ Para facilitar, irei dividir em três partes:
 
 Iremos começar com as confiugurações bem básicas que são as configurações realizadas dentro do diterório **bin**. Nele temos os seguintes arquivos de configuração:
 
-* **add-user.properties** - 
-* **appclient.conf** -
-* **domain.conf** -
-* **jboss-cli-logging.properties** - 
-* **jboss-cli.xml** -
-* 
+* **add-user.properties** - Configuração da política de senha na criação de usuários
+
+
+* **appclient.conf** - Arquivo que define as configurações do **appclient**, utilitário para execução de applicações sem a necessidade de executar o WildFly
+
+
+* **domain.conf** - Define as configurações utilizadas para iniciar o modo domínio.
+
+
+* **jboss-cli-logging.properties** - Definições de log do JBoss CLI.
+
+
+* **jboss-cli.xml** - Define as configurações que serão utilizadas pelo JBoss CLI, através do script **jboss-cli.sh** tais como **connection timeout** e **controller**.
+
+
+* **standalone.conf** - Define as configurações utilizadas para iniciar o modo standalone.
+
+
+**Obs**: O wildFly 10 já possui suporte ao **PowerShell**, note que já vários scripts com o sufixo **ps1** no diretório *bin*.
