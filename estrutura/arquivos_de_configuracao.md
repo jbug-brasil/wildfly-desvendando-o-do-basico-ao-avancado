@@ -15,3 +15,11 @@ Para facilitar, irei dividir em três partes:
 #### Configurações Gerais
 
 
+Iremos começar com as confiugurações bem básicas que são as configurações realizadas dentro do diterório **bin**. Nele temos os seguintes arquivos de configuração:
+
+* **add-user.properties** - 
+* **appclient.conf** -
+* **domain.conf** -
+* **jboss-cli-logging.properties** - 
+* **jboss-cli.xml** -
+* 
