@@ -36,3 +36,11 @@ Iremos começar com as confiugurações bem básicas que são as configurações
 
 
 **Obs**: O wildFly 10 já possui suporte ao **PowerShell**, note que já vários scripts com o sufixo **ps1** no diretório *bin*.
+
+
+#### Configurações modo Standalone
+
+
+
+#### Configurações modo Domínio
+
