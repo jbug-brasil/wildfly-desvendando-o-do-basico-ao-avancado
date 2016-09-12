@@ -35,7 +35,7 @@ Iremos começar com as confiugurações bem básicas que são as configurações
 * **standalone.conf** - Define as configurações utilizadas para iniciar o modo standalone.
 
 
-**Obs**: O wildFly 10 já possui suporte ao **PowerShell**, note que já vários scripts com o sufixo **ps1** no diretório *bin*.
+**Obs**: O wildFly 10 já possui suporte ao **PowerShell**, note que já há vários scripts com o sufixo **ps1** no diretório *bin*.
 
 
 #### Configurações modo Standalone
