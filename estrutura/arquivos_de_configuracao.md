@@ -57,12 +57,12 @@ Todos os arquivos de configuração do modo *Standalone* estão no diretório **
 * **mgmt-users.properties**: Define usuários e senha utilizados para autenticar usuários de gerenciamento.
 
 
-* **standalone.xml:
+* **standalone.xml**: Todas as definições e configurações do Wildfly são feitas através deste arquivo.
 
 
 #### Configurações modo Domínio
 
-No modo *Domínio* temos os mesmos arquivos de configuração com a exceção do **stadanloe.xml** e adição dos seguintes arquivos:
+No modo *Domínio* temos os mesmos arquivos de configuração com a exceção do **standalone.xml** e adição dos seguintes arquivos:
 
 
 
