@@ -11,7 +11,7 @@
 * [Estrutura - Cada coisa em seu lugar!](estrutura_-_cada_coisa_em_seu_lugar.md)
    * [Diretórios](estrutura/diretorios.md)
    * [Arquivos de configuração](estrutura/arquivos_de_configuracao.md)
-   * Profiles e suas diferenças
+   * [Profiles e suas diferenças](estrutura/profiles_e_suas_diferencas.md)
    * [Modo Standalone x Domain](modo_standalone_x_domain.md)
 * [Classloader Modular](classloader/introducao.md)
    * [O que é e como funciona?](classloader/como_funciona.md)
