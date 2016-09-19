@@ -65,13 +65,12 @@ Todos os arquivos de configuração do modo *Standalone* estão no diretório **
 No modo *Domínio* temos os mesmos arquivos de configuração com a exceção do **standalone.xml** e adição dos seguintes arquivos:
 
 
-* **domain.xml**: 
+* **domain.xml**: Define todas as configurações do modo domínio.
 
 * **host-master.xml**:
-
 
 * **host-slave.xml**:
 
 * **host.xml**:
 
-* **default-server-logging.properties**:
+* **default-server-logging.properties**: Arquivo que define as configurações de log padrão dos servidores gerenciados.
