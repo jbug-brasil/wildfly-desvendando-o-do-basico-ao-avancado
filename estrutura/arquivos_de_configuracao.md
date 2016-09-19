@@ -43,12 +43,26 @@ Iremos começar com as confiugurações bem básicas que são as configurações
 Todos os arquivos de configuração do modo *Standalone* estão no diretório **$JBOSS_HOME/standalone/configuration**, neste diretório iremos encontrar os seguintes arquivos:
 
 * **application-roles.properties**:
+
+
 * **application-users.properties**:
+
+
 * **logging.properties**:
+
+
 * **mgmt-groups.properties**:
+
+
 * **mgmt-users.properties**:
-* **
+
+
+* **standalone.xml:
 
 
 #### Configurações modo Domínio
+
+No modo *Domínio* temos os mesmos arquivos de configuração com a exceção do **stadanloe.xml** e adição dos seguintes arquivos:
+
+
 
