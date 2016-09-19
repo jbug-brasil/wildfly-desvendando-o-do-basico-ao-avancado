@@ -65,12 +65,12 @@ Todos os arquivos de configuração do modo *Standalone* estão no diretório **
 No modo *Domínio* temos os mesmos arquivos de configuração com a exceção do **standalone.xml** e adição dos seguintes arquivos:
 
 
-* **domain.xml**: Define todas as configurações do modo domínio.
+* **domain.xml**: Define todas as configurações do modo domínio. Emn adição ao domain.xml temos mais 3 arquivos:
 
-* **host-master.xml**:
+  * **host-master.xml**: Este arquivo define as configuração da instância do WildFly que irá atuar somente como Controlador de Dmínio.
 
-* **host-slave.xml**:
+  * **host-slave.xml**: Um modo domínio distribuído tem seus host masters e slaves, este arquivo define as configurações do slaves.
 
-* **host.xml**:
+  * **host.xml**: Se por acaso desejar executar o WildFly no modo domínio em somente um servidor, é neste arquivo que estará contidos todas as informações referentes ao host. Note que também é possível utilizá-lo como host master ou slave.
 
 * **default-server-logging.properties**: Arquivo que define as configurações de log padrão dos servidores gerenciados.
