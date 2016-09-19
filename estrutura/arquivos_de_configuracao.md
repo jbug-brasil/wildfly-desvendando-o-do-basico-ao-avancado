@@ -42,19 +42,19 @@ Iremos começar com as confiugurações bem básicas que são as configurações
 
 Todos os arquivos de configuração do modo *Standalone* estão no diretório **$JBOSS_HOME/standalone/configuration**, neste diretório iremos encontrar os seguintes arquivos:
 
-* **application-roles.properties**:
+* **application-roles.properties**: Neste arquivo é configurado as permissões (Roles) dos usuários utilizados em aplicações.
 
 
-* **application-users.properties**:
+* **application-users.properties**: Armazena usuários utilizados para autenticação realizada por aplicações.
 
 
-* **logging.properties**:
+* **logging.properties**: Arquivo que define as configurações de log do Wildfly, este arquivo é alterado de acordo com as definições de logging realizadas no subsystem *logging*.
 
 
-* **mgmt-groups.properties**:
+* **mgmt-groups.properties**: Grupos dos usuários de gerenciamento, note os grupos são usasdos quando o **RBAC (Role Based Access Control)** ou Controle de Acesso Baseardo em Roles.
 
 
-* **mgmt-users.properties**:
+* **mgmt-users.properties**: Define usuários e senha utilizados para autenticar usuários de gerenciamento.
 
 
 * **standalone.xml:
