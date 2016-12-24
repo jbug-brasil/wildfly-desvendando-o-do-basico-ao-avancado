@@ -1,4 +1,4 @@
 # Entendendo
 
-em desenvolvimento
+em desenvolvimento...
 
