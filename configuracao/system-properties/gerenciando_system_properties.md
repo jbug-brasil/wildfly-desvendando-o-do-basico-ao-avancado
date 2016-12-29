@@ -1,2 +1,0 @@
-# Gerenciando System properties
-

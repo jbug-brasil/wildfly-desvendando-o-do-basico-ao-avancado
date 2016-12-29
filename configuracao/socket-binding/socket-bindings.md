@@ -18,3 +18,43 @@ _Socket Bindings_ define o conjunto de Sockets a serem utilizados pelos Subsyste
 ```
 
 ## Como configurar
+
+Além da configuração manual no XML, é possível também alterar os Socket-Bindings de outras maneiras a seguir:
+
+### Via Web Console
+
+* Acesse [http://localhost:9990](http://localhost:9990)
+
+![Socket Binding](../../images/socket-binding-1.png)
+
+* Clique em `Configuration`
+
+![Socket Binding](../../images/socket-binding-2.png)
+
+* Clique em `Socket Binding`
+
+![Socket Binding](../../images/socket-binding-3.png)
+
+* Clique em `View`
+
+![Socket Binding](../../images/socket-binding-4.png)
+
+* Aparecerá a listagem dos Socket Bindings disponíveis, onde é possível Adicionar/Remover/Editar os Socket Bindings
+
+![Socket Binding](../../images/socket-binding-5.png)
+
+### Via CLI
+
+```
+/socket-binding-group=new-sockets:add(default-interface=public)
+```
+
+```
+/socket-binding-group=new-sockets/socket-binding=new-socket-binding:write-attribute(name=interface,value=unsecure)
+```
+
+# Definindo Port Offset em modo Domain
+
+```
+/host=master/server-config=server-two/:write-attribute(name=socket-binding-port-offset,value=250)
+```

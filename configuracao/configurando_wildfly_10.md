@@ -95,5 +95,11 @@ Interfaces são denominações lógicas para interfaces de rede que irão se ass
     </interfaces>
 ```
 
+## Histórico de alterações
+
+Uma das maiores funcionalidades no Wildfly é o registro histórico de configurações. Dessa forma, se houver qualquer alteração nos arquivos de configuração (seja ela editando manualmente o arquivo, via JBoss CLI ou Console Web), o Wildfly irá criar um backup das alterações. Isso permite que no caso de alguma alteração afetar negativamente o ambiente é possível reverter a alteração apenas copiando a última versão alterada.
+
+A estrutura de histório está descrita no capítulo [Diretórios](../../estrutura/diretorios.md). Para recuperar o arquivo, basta sobreesrcrever o atual com um dos snapshots que ficam dentro do diretório `snapshots` (o snapshot é o nome do arquivo de configuração seguido da data e hora de alteração).
+
 [^2]: NIC = _Network Interface Card_, ou simplesmente Interface de Rede
 [^3]: Definimos _offset_ a soma a ser colocada no número da porta de cada Socket Binding definido no grupo. Ex. Se definir um offset de 150 e a porta definida para o Socket Binding `http` é 8080, então o número da porta é 8230.
