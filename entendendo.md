@@ -1,4 +1,0 @@
-# Entendendo
-
-em desenvolvimento...
-

@@ -43,6 +43,10 @@ Java EE é o conjunto de JSRs que focam no desenvolvimento de aplicações corpo
 
 É importante lembrar que o objetivo da especificação Java EE (sim, Java EE também é uma especificação, conhecida como _Umbrella Specification_) é padronizar o uso de determinadas tecnologias e portanto ela não tem como objetivo criar inovações tecnológicas em torno da plataforma. Seu objetivo principal é evitar o fenômeno chamado de _Vendor Lock-In_, que é um fornecedor "prender" seus clientes a uma característica muito específica e que altera uma funcionalidade do Java EE. Claro que há outros aspectos que o Java EE não pretende controlar, como por exemplo _Clustering_, sendo esse livre para o fornecedor criar sua própria implementação. A este caso específico foi dada essa liberdade de implementação para permitir a livre concorrência entre seus fornecedores e atraí-os para a comunidade Java.
 
+## Por que Utilizar Um Servidor de Aplicação?
+
+<TODO>
+
 ## O que virá nos próximos capítulos?
 
 O livro irá trazer uma breve introdução ao Wildfly, sua arquitetura e depois mostraremos algumas das tarefas administrativas que podem ser feitas para configurar os componentes do Java EE, bem como fazer o _deployment_ de aplicações Java EE dentro do Wildfly.

@@ -2,7 +2,7 @@
 
 O WildFly manteve praticamente a mesma estrutura de diretórios do JBoss AS 7, enxuta e centralizada. Para aqueles que ainda não estão familiarizados com essa nova estrutura, a próxima seção descreverá em detalhes abaixo.
 
-## Como está dividia a estrutura?
+## Como está dividida a estrutura?
 
 Bom, temos a seguinte estrutura de diretórios:
 ```

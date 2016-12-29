@@ -1,2 +1,0 @@
-# Configurando WildFly 10
-

@@ -1,6 +1,12 @@
 {
     "plugins": [
-        "anchors"
+        "anchors",
+        "githubcontributors"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+        "githubcontributors": {
+            "githubOwner": "jbug-brasil",
+            "githubRepository": "wildfly-desvendando-o-do-basico-ao-avancado"
+        }
+    }
 }

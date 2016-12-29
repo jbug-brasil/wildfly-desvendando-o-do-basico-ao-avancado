@@ -61,7 +61,7 @@ Abra um shell utilizando este usuário e em seguida acesso o diretório *wildfly
 Com os comandos executados acima estamos:
 * logando com o usuário _wildfly_
 * Acessando o *JBOSS_HOME*
-* Iniciando o WIldFLy
+* Iniciando o Wildfly
 
 Caso ocorra tudo bem durante a inicialização do WildFly você terá um log muito semelhante a este: 
 

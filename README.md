@@ -4,7 +4,7 @@ Este livro tem como finalidade levar a comunidade um conteúdo rico para o públ
 
 O livro é gratuito e toda e qualquer informação aqui encontrada é de autoria dos membros da comunidade e do _JBUG:Brasil_, qualquer novo conteúdo será revisado e _googlado_ antes de ser publicado. Todo e qualquer conteúdo aqui encontrado pode ser compartilhado porém de forma alguma poderá ser utilizado para fins comerciais, sendo destinado aos usuários do Brasil, só será disponibilizado em pt-BR.
 
-Os exemplos utilizados neste livro serão publicados no _GitHub_ neste link:  \[[https://github.com/jbug-brasil](https://github.com/jbug-brasil)\]. Caso encontre algum erro e/ou problema durante sua execução será de altíssima importância sua contribuição para que possamos sempre melhorar o conteúdo oferecido.
+Os exemplos utilizados neste livro serão publicados no _GitHub_ no link [https://github.com/jbug-brasil](https://github.com/jbug-brasil). Caso encontre algum erro e/ou problema durante sua execução será de altíssima importância sua contribuição para que possamos sempre melhorar o conteúdo oferecido.
 
 Este livro irá abordar desde a instalação e configuração do Servidor de aplicações WildFly. Se você está procurando informações sobre o WildFly, este livro é o lugar certo.
 
@@ -21,6 +21,13 @@ Utilize o GitHub para realizar fork deste livro e efetuar suas alterações. Mai
 Estamos no IRC: _\#jbug-brasil_ no freenode e jboss.org [https://developer.jboss.org/groups/jbug-brasil](https://developer.jboss.org/groups/jbug-brasil).
 
 E também no telegram, grupo JBug Brasil.
+
+## Agradecimentos
+
+Agradecemos os seguintes contribuidores para elaboração deste livro:
+
+{% GitHubContributors %}
+{% endGitHubContributors %}
 
 ## Erros? :-\)
 

@@ -19,23 +19,28 @@ Caso você tente acessar a console de gerenciamento sem ter antes, criado o usu�
 Para adicionar o usuário siga os passos a seguir:
 
 *  Execute o script _add-user.sh_
+
 ```
-$WFLY_HOME/bin/add-user.sh
+$ ./add-user.sh
     
 What type of user do you wish to add? 
  a) Management User (mgmt-users.properties) 
  b) Application User (application-users.properties)
 (a): 
 ```
+
 Por padrão o _ManagementRealm_ é selecionado, apenas aperte *enter* para prosseguir.
 
 O próximo passo será definir o nome do usuário, escolha um username e prossiga:
+
 ```
 Enter the details of the new user to add.
 Using realm 'ManagementRealm' as discovered from the existing property files.
 Username : admin  
 ```
+
 Logo a seguir você será informado que o usuário _admin_ já existe porém está desativado e irá lhe mostrar as opções disponíveis:
+
 ```
 User 'admin' already exists and is disabled, would you like to... 
  a) Update the existing user password and roles 
@@ -43,9 +48,11 @@ User 'admin' already exists and is disabled, would you like to...
  c) Type a new username
 (a): 
 ```
+
 Você terá a opção de atualizar usuário existente e seus grupos, ativar o usuário existente ou digitar um novo username. Neste caso iremos somente atualizar a senha do usuário _admin_, por padrão esta opção já está selecionada, apenas tecle __enter__.
 
 Agora defina a senha:
+
 ```
 Password recommendations are listed below. To modify these restrictions edit the add-user.properties configuration file.
  - The password should be different from the username
@@ -54,7 +61,9 @@ Password recommendations are listed below. To modify these restrictions edit the
 Password : 
 Re-enter Password : 
 ```
+
 O próximo passo é definir os grupos, no momento não será necessário definir nenhum, apenas prossiga:
+
 ```
 What groups do you want this user to belong to? (Please enter a comma separated list, or leave blank for none)[  ]: 
 Updated user 'admin' to file '/dados/server/wildfly-10.0.0.Final/standalone/configuration/mgmt-users.properties'
@@ -62,11 +71,14 @@ Updated user 'admin' to file '/dados/server/wildfly-10.0.0.Final/domain/configur
 Updated user 'admin' with groups  to file '/dados/server/wildfly-10.0.0.Final/standalone/configuration/mgmt-groups.properties'
 Updated user 'admin' with groups  to file '/dados/server/wildfly-10.0.0.Final/domain/configuration/mgmt-groups.properties'
 ```
+
 O script irá perguntá-lo se se este usuário será utilizado para autenticação entre 2 servidores WildFly (Veremos com mais detalhes este processo na configuração do modo _Domain_). Neste caso será um usuário normal, digite __no__ e tecle __enter__
+
 ```
 Is this new user going to be used for one AS process to connect to another AS process? 
 e.g. for a slave host controller connecting to the master or for a Remoting connection for server to server EJB calls.
 yes/no? no
+
 ```
 Neste momento já estamos aptos a acessar a Console de Gerenciamento, tente acessá-la novamente e utilize as credenciais que criamos, caso esteja tudo certo você será redirecionado para a página principal:
 
@@ -75,6 +87,7 @@ Neste momento já estamos aptos a acessar a Console de Gerenciamento, tente aces
 ### Dicas
 
 #### Criando usuário somente com um comando:
+
 ```
 $WFLY_HOME/bin/add-user.sh -u admin2 -p teste@123 -s -e
 ```

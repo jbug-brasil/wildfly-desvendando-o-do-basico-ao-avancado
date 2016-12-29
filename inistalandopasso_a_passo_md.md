@@ -1,2 +1,0 @@
-# Instalando - passo a passo
-

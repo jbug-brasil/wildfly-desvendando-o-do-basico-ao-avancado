@@ -1,10 +1,4 @@
-## Por que Utilizar Um Servidor de Aplicação?
 ## Introdução ao Mundo JBoss
-## Do que Eu Preciso?   //( JDK, etc )
-## Instalando WildFly 10
-## Cada coisa em seu lugar!  //( File System do WildFly )
-## Standalone X Domain
-## Configurando WildFly 10  //Path, Extensions, Socket binding groups, System properties, Data sources
 ## Configurando o WildFly 10 como serviço em plataformas *nix e MS Windows
 ## Escolhendo o Melhor Profile para Sua Aplicação!
 ## Introdução ao Modelo Domain
