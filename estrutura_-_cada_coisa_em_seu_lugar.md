@@ -1,2 +1,3 @@
 # Estrutura - Cada coisa em seu lugar!
 
+Para ter maior domínio sobre o Wildfly e conhecer melhor o servidor afim de oferecer melhor administração, é necessário entender toda a estrutura de diretórios dentro do servidor. O objetivo deste capítulo é mostrar toda sua estrutura, mostrando diretórios importantes a serem analisados, os perfis de execução do servidor (_standalone_ e _domain_) e onde encontrar os arquivos de configuração.

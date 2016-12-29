@@ -1,2 +1,0 @@
-# Modo Standalone x Domain
-
