@@ -7,6 +7,8 @@
     * [Requisitos](instalacao/requisitos.md)
     * [Downloads](instalacao/downloads.md)
     * [Instalação passo a passo](instalacao/instalacao_passo_a_passo.md)
+    * [instalacao/instalando-como-servico-linux.md](/instalacao/instalando-como-servico-linux.md "Instalando o WildFly como serviço no Linux")
+    * [instalacao/instalando-como-servico-windows.md](/instalacao/instalando-como-servico-windows.md "Instalando o WildFly como serviço no Windows")
     * [Criando usuário de gerenciamento](instalacao/criando_usuario_de_gerenciamento.md)
 * [Estrutura - Cada coisa em seu lugar!](estrutura_-_cada_coisa_em_seu_lugar.md)
   * [Diretórios](estrutura/diretorios.md)
@@ -36,4 +38,6 @@
   * Subsystem Infinispan
   * Wildfly como loadbalancer
   * Configurando loadbalancer externos
+
+
 
