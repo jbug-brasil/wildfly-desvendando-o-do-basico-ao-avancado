@@ -4,7 +4,7 @@ Neste capítulos iremos abordar a instalação do WildFly partindo do princípio
 
 Bom, como todos nós temos o direito de escolha, para ilustrar os exemplos deste tópico e dos demais irei usar a seguinte configuração:
 
-* Sistema Operacional: Fedora 23 x86_64, Server Edition
+* Sistema Operacional: Fedora 23 x86\_64, Server Edition
 * Banco de dados: MariaDB 10.0.25-1.fc23
 
 Obs: O banco de dados não será necessário neste primeiro momento, mas será utilizado em capítulos futuros.
@@ -14,8 +14,8 @@ Obs: O banco de dados não será necessário neste primeiro momento, mas será u
 Segurança em primeiro lugar, evite ao máximo utilizar o usuário _root_ para executar o WildFly porque desta forma estaremos protegendo o servidor como um todo de forma que uma aplicação que permita execução de códigos arbritrários não execute nada no servidor com um usuário privilegiado.
 
 Neste caso utilizarei um usuário chamado _wildfly_, para criar o usuário execute o seguinte comando:
-  
-```
+
+```bash
 # useradd wildfly
 ```
 
@@ -25,19 +25,19 @@ Esta é realmente a primeira dúvida que temos ao realizar a instalação de qua
 
 Vamos agora descompactar o WildFly no diretório escolhido:
 
-```
+```bash
 # tar -xzvf wildfly-10.1.0.CR1.tar.gz --directory /opt
 ```
 
-Ou se prefere utilizar o arquivo com extensão *.zip*:
+Ou se prefere utilizar o arquivo com extensão _.zip_:
 
-```
+```bash
 unzip wildfly-10.1.0.CR1.zip -d /opt
 ```
 
 Neste momento já temos o servidor WildFLy descompactado no diretório _/opt_:
 
-```
+```bash
 # ll /opt
 total 0
 drwxr-xr-x. 10 root root 220 Jul 28 01:02 wildfly-10.1.0.CR1
@@ -45,27 +45,28 @@ drwxr-xr-x. 10 root root 220 Jul 28 01:02 wildfly-10.1.0.CR1
 
 Note que as permissões de usuário e grupo estão configuradas para o usuário _root_, como boas práticas não iremos utilizar o usuário _root_ para execução do WildFly, e sim o usuário criado anteriormente, altere as permissões com o seguinte comando:
 
-```
+```bash
 # chown -R wildfly. /opt/wildfly-10.1.0.CR1/
 ```
 
-Agora podemos utilizar o usuário _wildfly_ para executar o Servidor.
-Abra um shell utilizando este usuário e em seguida acesso o diretório *wildfly-10.1.0.CR1*:
+Agora podemos utilizar o usuário _wildfly_ para executar o Servidor.  
+Abra um shell utilizando este usuário e em seguida acesso o diretório _wildfly-10.1.0.CR1_:
 
-```
+```bash
 [root@wfly-server ~]# su - wildfly
 [wildfly@wfly-server ~]$ cd /opt/wildfly-10.1.0.CR1/
 [wildfly@wfly-server wildfly-10.1.0.CR1]$ bin/standalone.sh
 ```
 
 Com os comandos executados acima estamos:
+
 * logando com o usuário _wildfly_
-* Acessando o *JBOSS_HOME*
+* Acessando o _JBOSS\_HOME_
 * Iniciando o Wildfly
 
-Caso ocorra tudo bem durante a inicialização do WildFly você terá um log muito semelhante a este: 
+Caso ocorra tudo bem durante a inicialização do WildFly você terá um log muito semelhante a este:
 
-```
+```bash
 [wildfly@wfly-server wildfly-10.1.0.CR1]$ bin/standalone.sh 
 =========================================================================
 
@@ -123,9 +124,9 @@ Caso ocorra tudo bem durante a inicialização do WildFly você terá um log mui
 12:33:30,013 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.CR1 (WildFly Core 2.2.0.CR9) started in 4417ms - Started 331 of 577 services (393 services are lazy, passive or on-demand)
 ```
 
-Acesse o servidor utilizando o endereço _[http://localhost:8080](http://localhost:8080)_, a seguinte página deverá ser exibida:
+Acesse o servidor utilizando o endereço [_http://localhost:8080_](http://localhost:8080), a seguinte página deverá ser exibida:
 
 ![](../images/wildfly-welcome.png)
 
-
 No próximo tópico abordaremos a criação do usuário de gerenciamento do WildFly.
+
