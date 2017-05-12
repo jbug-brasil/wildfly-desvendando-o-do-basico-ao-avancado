@@ -4,7 +4,7 @@ Neste capítulos iremos abordar a instalação do WildFly partindo do princípio
 
 Bom, como todos nós temos o direito de escolha, para ilustrar os exemplos deste tópico e dos demais irei usar a seguinte configuração:
 
-* Sistema Operacional: Fedora 23 x86\_64, Server Edition
+* Sistema Operacional: Fedora 25 x86\_64, Server Edition
 * Banco de dados: MariaDB 10.0.25-1.fc23
 
 Obs: O banco de dados não será necessário neste primeiro momento, mas será utilizado em capítulos futuros.
@@ -26,13 +26,13 @@ Esta é realmente a primeira dúvida que temos ao realizar a instalação de qua
 Vamos agora descompactar o WildFly no diretório escolhido:
 
 ```bash
-# tar -xzvf wildfly-10.1.0.CR1.tar.gz --directory /opt
+# tar -xzvf wildfly-10.1.0.Final.tar.gz --directory /opt
 ```
 
 Ou se prefere utilizar o arquivo com extensão _.zip_:
 
 ```bash
-unzip wildfly-10.1.0.CR1.zip -d /opt
+unzip wildfly-10.1.0.Final.zip -d /opt
 ```
 
 Neste momento já temos o servidor WildFLy descompactado no diretório _/opt_:
@@ -72,7 +72,7 @@ Caso ocorra tudo bem durante a inicialização do WildFly você terá um log mui
 
   JBoss Bootstrap Environment
 
-  JBOSS_HOME: /opt/wildfly-10.1.0.CR1
+  JBOSS_HOME: /opt/wildfly-10.1.0.Final
 
   JAVA: java
 

@@ -66,10 +66,10 @@ O próximo passo é definir os grupos, no momento não será necessário definir
 
 ```
 What groups do you want this user to belong to? (Please enter a comma separated list, or leave blank for none)[  ]: 
-Updated user 'admin' to file '/dados/server/wildfly-10.0.0.Final/standalone/configuration/mgmt-users.properties'
-Updated user 'admin' to file '/dados/server/wildfly-10.0.0.Final/domain/configuration/mgmt-users.properties'
-Updated user 'admin' with groups  to file '/dados/server/wildfly-10.0.0.Final/standalone/configuration/mgmt-groups.properties'
-Updated user 'admin' with groups  to file '/dados/server/wildfly-10.0.0.Final/domain/configuration/mgmt-groups.properties'
+Updated user 'admin' to file '/opt/wildfly-10.1.0.Final/standalone/configuration/mgmt-users.properties'
+Updated user 'admin' to file '/opt/wildfly-10.1.0.Final/domain/configuration/mgmt-users.properties'
+Updated user 'admin' with groups  to file '/opt/wildfly-10.1.0.Final/standalone/configuration/mgmt-groups.properties'
+Updated user 'admin' with groups  to file '/opt/wildfly-10.1.0.Final/domain/configuration/mgmt-groups.properties'
 ```
 
 O script irá perguntá-lo se se este usuário será utilizado para autenticação entre 2 servidores WildFly \(Veremos com mais detalhes este processo na configuração do modo _Domain_\). Neste caso será um usuário normal, digite **no** e tecle **enter**
@@ -92,7 +92,7 @@ Neste momento já estamos aptos a acessar a Console de Gerenciamento, tente aces
 $WFLY_HOME/bin/add-user.sh -u admin2 -p teste@123 -s -e
 ```
 
-#### Criando usuários com senhas fracas \(não permitido através do script\)
+#### Criando usuários com senhas fracas \(não permitido através do script add-user\)
 
 Este método não é recomendado, nunca use-o em produção.
 
@@ -109,13 +109,9 @@ username=8959126dd54df47f694cd762a51a1a6f
 
 Caso deseje criar um _application_ user altere a Realm para _ApplicationRealm_.
 
-
-
 #### Alterando a política de senhas
 
 Também é possível alterar a política de senhas utilizada pelo script de criação de usuários. No diretório **$JBOSS\_HOME/bin **existe um arquivo chamado _add-user.properties_ com o seguinte conteúdo:
-
-
 
 ```bash
 #
