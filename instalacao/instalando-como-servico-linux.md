@@ -18,5 +18,5 @@ Under development
 
 O arquivo de configuração do **systemd** disponibilizado na instalação do WildFly já está pronto para uso, sendo necessário realizar somente alguns passos antes de executá-lo como serviço.
 
-Neste ponto, será necessário
+Neste ponto, será necessário ter efetuado os passos descritos no tópico [Instalação passo a passo](instalacao_passo_a_passo.md)
 

@@ -35,11 +35,12 @@ Ou se prefere utilizar o arquivo com extensão _.zip_:
 unzip wildfly-10.1.0.Final.zip -d /opt
 ```
 
-Para facilitar a administração do servidor de aplicação é interessante utilizar link simbólicos para facilitar uma atualização do WildFly, por exemplo, podemos criar um link simbólico do diretório _wildfly-10.1.0.Final _e chamá-lo somente de _wildfly_, e quando sugir uma atualização de uma nova versão do WildFly basta somente atualizar o link simbólico, assim scripts de inicialização podem utilizar somente o diretório _/opt/wildfly_. Para efetuar esta configuração siga os passos abaixo:
+Para facilitar a administração do servidor de aplicação é interessante utilizar link simbólicos para facilitar uma atualização do WildFly, por exemplo, podemos criar um link simbólico do diretório _wildfly-10.1.0.Final \_e chamá-lo somente de \_wildfly_, e quando sugir uma atualização de uma nova versão do WildFly basta somente atualizar o link simbólico, assim scripts de inicialização podem utilizar somente o diretório _/opt/wildfly_. Para efetuar esta configuração siga os passos abaixo:
 
-
-
-
+```
+# cd /opt
+# ln -s wildfly-10.1.0.Final wildfly
+```
 
 Neste momento já temos o servidor WildFLy descompactado no diretório _/opt_:
 
