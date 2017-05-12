@@ -13,7 +13,7 @@ Obs: O banco de dados não será necessário neste primeiro momento, mas será u
 
 Segurança em primeiro lugar, evite ao máximo utilizar o usuário _root_ para executar o WildFly porque desta forma estaremos protegendo o servidor como um todo de forma que uma aplicação que permita execução de códigos arbritrários não execute nada no servidor com um usuário privilegiado.
 
-Neste caso utilizarei um usuário chamado _wildfly _que será somente utilizado para executar o WildFly, para criar o usuário execute o seguinte comando:
+Neste caso utilizarei um usuário chamado \_wildfly \_que será somente utilizado para executar o WildFly, para criar o usuário execute o seguinte comando:
 
 ```bash
 # uuseradd -r -g wildfly -d /opt/wildfly -s /sbin/nologin wildfly
@@ -35,6 +35,12 @@ Ou se prefere utilizar o arquivo com extensão _.zip_:
 unzip wildfly-10.1.0.Final.zip -d /opt
 ```
 
+Para facilitar a administração do servidor de aplicação é interessante utilizar link simbólicos para facilitar uma atualização do WildFly, por exemplo, podemos criar um link simbólico do diretório _wildfly-10.1.0.Final _e chamá-lo somente de _wildfly_, e quando sugir uma atualização de uma nova versão do WildFly basta somente atualizar o link simbólico, assim scripts de inicialização podem utilizar somente o diretório _/opt/wildfly_. Para efetuar esta configuração siga os passos abaixo:
+
+
+
+
+
 Neste momento já temos o servidor WildFLy descompactado no diretório _/opt_:
 
 ```bash
@@ -46,7 +52,7 @@ drwxr-xr-x. 10 root root 220 Jul 28 01:02 wildfly-10.1.0.Final
 Note que as permissões de usuário e grupo estão configuradas para o usuário _root_, como boas práticas não iremos utilizar o usuário _root_ para execução do WildFly, e sim o usuário criado anteriormente, altere as permissões com o seguinte comando:
 
 ```bash
-# chown -R wildfly. /opt/wildfly-10.1.0.CR1/
+# chown -R wildfly. /opt/wildfly-10.1.0.Final/
 ```
 
 Agora podemos utilizar o usuário _wildfly_ para executar o Servidor.  
