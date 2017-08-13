@@ -34,8 +34,10 @@
   * [Subsystem Batch](configuracao/batch/README.md)
   * [Subsystem Messaging](configuracao/messaging/README.md)
 * [Alta disponibilidade \(HA\)](configuracao/alta-disponibilidade/README.md)
-  * Subsystem jGroups
-  * Subsystem Infinispan
-  * Wildfly como loadbalancer
-  * Configurando loadbalancer externos
+  * [Subsystem jGroups](configuracao/alta-disponibilidade/subsystem-jgroups.md)
+  * [Subsystem Infinispan](configuracao/alta-disponibilidade/subsystem-infinispan.md)
+  * [Wildfly como loadbalancer](configuracao/alta-disponibilidade/wildfly-como-loadbalancer.md)
+  * [Configurando loadbalancer externos](configuracao/alta-disponibilidade/configurando-loadbalancer-externos.md)
+* [Modo Domain passo a passo](modo-domain-passo-a-passo.md)
+  * [Primeiros Passos](modo-domain-passo-a-passo/primeiros-passos.md)
 
