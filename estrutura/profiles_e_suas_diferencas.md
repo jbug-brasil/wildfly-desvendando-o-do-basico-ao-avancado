@@ -25,9 +25,7 @@ O modo domain, assim como explicado no tópico anterior ele é gerenciado por um
 
 > Todos os arquivos de configuração do modo Domínio estão no diretório _$JBOSS\_HOME/configuration/domain_
 
-Os profiles são estruturados da mesma maneira que os do modo standalone, porém com uma pequena diferença, repare na tabela abaixo:
-
-
+Os profiles são estruturados da mesma maneira que os profiles do modo standalone, porém com uma pequena diferença, repare na tabela abaixo:
 
 | Perfil | Nome do profile | Utilização |
 | --- | --- | --- |
@@ -36,11 +34,7 @@ Os profiles são estruturados da mesma maneira que os do modo standalone, porém
 | Web c/ HA | ha | Permite o uso do perfil Java EE Web com características de HA |
 | Full c/ HA | full-ha | Permite o uso do perfil Java EE Full com características de HA |
 
-
-
 Veja abaixo um exemplo de uma definição de profile encontrada no arquivo **domain.xml:**
-
-
 
 ```xml
     <profiles>
@@ -52,11 +46,7 @@ Veja abaixo um exemplo de uma definição de profile encontrada no arquivo **dom
     </profiles>
 ```
 
-
-
 A escolha do profile a ser utilizado por grupo de servidores é feita no também no arquivo **domain.xml** da seguinte maneira:
-
-
 
 ```xml
     <server-groups>
@@ -74,8 +64,6 @@ A escolha do profile a ser utilizado por grupo de servidores é feita no também
         </server-group>
     </server-groups>
 ```
-
-
 
 O treco a acima é encontrado no final do arquivo e note que em cada definição de grupo de servidores temos o parâmetro **profile **para cada um deles.
 
