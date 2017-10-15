@@ -45,7 +45,26 @@ Java EE é o conjunto de JSRs que focam no desenvolvimento de aplicações corpo
 
 ## Por que Utilizar Um Servidor de Aplicação?
 
-<TODO>
+Um servidor de aplicação fornece todo um ambiente para o _deploy_ e manutenção de aplicações, seguindo as especificações Java EE, além de possuir uma API para acesso a todos estes recursos. O Wildfly implementa as especificações Java EE 7, também conhecida como JEE 7, e é compatível com vários profiles que foram definidos no Java EE 7.
+
+#### Por que Utilizar Wildfly?
+
+Os principais motivos para utilizar o Wildfly são:
+
+1. **Unparalleled Speed:** O Wildfly possui um startup mais veloz, o processo de boot foi otimizado desde o Wildfly 8, agora os processos são iniciado paralelamente para eliminar esperas desnecessárias e aproveitar o poder dos processadores multi-core. Os serviços não críticos são mantidos em gelo até o primeiro uso.A partir do Wildfly 8 foi inserido um novo web server de alta performance, o [undertow](http://undertow.io/) que tem a habilidade de escalar mais de um milhão de conexões. Isso nos dá a capacidade de atender alguns requisitos de modernas aplicações web, como: Conectividade, Responsividade e Habilidade de escalar.
+
+2. **Exceptionally Lightweight:** O Wildfly fez mudanças significaticas no gerenciamento de memória. Os serviços de runtime foram desenvolvidos para que alocassem o mínimo de heap. Com o uso de class loading modular o servidor de aplicação evita classes duplicadas e que seja iniciado mais módulos que o necessário. Com isso o uso de memória inicial é reduzido, e também evita-se que o garbage collector fique pausando o sistema. Ainda é possível adicionar
+
+3. **Powerful Administration:** As configurações do Wildfly são facilmente gerenciadas, de compreensão simples e desenvolvida com foco no usuário. Existem tres formas de gerenciar as configurações no servidor de aplicação: Edição de XML, Por linha de comando e utilizando o Gerenciar web. Não se preocupe, iremos abordar esses temas nos próximos capítulos. Ainda é possível executar o Wildfly de dois modos: Standalone (uma JVM) ou Domain (várias JVMs), isto também será abordado em capítulos futuros.
+
+4. **Supports Latest Standards and Technology:** O Wildfly foi todo desenvolvido baseando-se nas especificações Java EE 7. Com isso o servidor de aplicação provém ao desenvolvedor capacidade de criar aplicações web com mais facilidade e agilidade. O Wilfdly também possibilita trabalhar com as novas especificações para web moderna, como Websockets, JSON-P, REST, JAX-RS 2, etc. Tudo isso graças ao Undertow.
+
+5. **Modular Java:** O Class loading hierarquico é um problema conhecido, causando entre outros falhas no momento do deploy de aplicação. O Wildfly faz uso correto de classloading por meio de módulos que fazem a isolação da aplicação escondendo as classes de implementação do servidor da aplicação, e apenas “linkando” os Jars que sua aplicação necessita.
+
+6. **Easily Testable:** Com a melhora de performance do Wildfly, as aplicações são facilmente testadas utilizando [arquilian](http://arquillian.org/).
+
+7. **Based on the Best of Open Source:** RestEasy, Weld, Hibernate, HornetQ e Arquillian são algumas das tecnologias que estão presentes no Wildfly.
+
 
 ## O que virá nos próximos capítulos?
 
