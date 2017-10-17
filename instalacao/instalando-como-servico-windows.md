@@ -18,7 +18,7 @@ Agora você pode gerenciar o serviço, realizando _start_, _stop_ ou _restart_ p
 3.  Pressione "Enter" para abrir o utilitário Serviços
 4. Procure o serviço chamado _Wildfly Application Server._
 
-![Windos Service](images/windows_service.png)
+![Windows Service](images/windows_service.png)
 
 Como alternativa é possível fazer os gerenciamentos básicos do serviço utilizando o _JBOSS_HOME/docs/contrib/scripts/service/service.bat_. Veja alguns exemplos a seguir:
 
