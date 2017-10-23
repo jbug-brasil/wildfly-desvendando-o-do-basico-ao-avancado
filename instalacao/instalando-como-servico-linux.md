@@ -25,6 +25,7 @@ O primeiro passo é copiar o o arquivo de script, de arcordo com sua distribuiç
 ```bash
 cp /opt/wildfly/docs/contrib/scripts/init.d/wildfly-init-redhat.sh /etc/init.d/wildfly
 ```
+
 Agora precisamos copiar o arquivo de configuração **wildfly.conf** para onde o script espera que ele esteja, em _/etc/default_ como podemos observar no script copiado anteriormente:
 
 ```bash
@@ -39,12 +40,14 @@ fi
 
 (...)
 ```
+
 Para copiar o arquivo, execute o seguinte comando:
 
 ```bash
 mkdir -p /etc/default
 cp /opt/wildfly/docs/contrib/scripts/init.d/wildfly.conf /etc/default
 ```
+
 O próximo passo será editar o arquivo **wildfly.conf** previamente copiado com as seguintes informações:
 
 ```bash
@@ -63,6 +66,7 @@ JBOSS_MODE=standalone
 # Configuration for standalone mode
 JBOSS_CONFIG=standalone.xml
 ```
+
 Note que é possível executar em modo domain, além de passar outros parâmetros, como:
 
 ```bash
@@ -78,27 +82,32 @@ SHUTDOWN_WAIT=60
 ## Additionals args to include in startup
 # JBOSS_OPTS="--admin-only -b 127.0.0.1"
 ```
+
 Dando continuidade, o passo seguinte é instalar o wildfly como um serviço utilizando o comando **chkconfig**.
 
 ```bash
 chkconfig --add wildfly
 ```
+
 Em seguida, configurar o nível de inicialização onde o serviço será iniciado:
 
 ```bash
 chkconfig --level 2345 wildfly on
 ```
+
 Por fim vamos iniciar o serviço:
 
 ```bash
 sudo service wildfly start
 ```
+
 Caso tudo ocorra bem, a seguinte saída deve ser mostrada no console:
 
 ```bash
 sudo service wildfly start
 Starting wildfly (via systemctl):                          [  OK  ]
 ```
+
 Para encerar o serviço, basta executar o comando:
 
 ```bash
@@ -145,9 +154,12 @@ WILDFLY_CONFIG=domain.xml
 WILDFLY_MODE=domain
 ```
 
-Por padrão o endereço de bind vem configurado c omo **0.0.0.0**, não é uma boa prática deixá-lo com essa configuração, altere o endeço de bind para o endereço de IP do servidor em que o WildFly será executado. Para alterar o endereço de bind edite o mesmo arquivo citado acima da seguinte maneira, como exemplo será utilizado o ip **192.168.1.10**:
+Por padrão o endereço de bind vem configurado como **0.0.0.0**, não é uma boa prática deixá-lo com essa configuração, altere o endeço de bind para o endereço de IP do servidor em que o WildFly será executado. Para alterar o endereço de bind edite o mesmo arquivo citado acima da seguinte maneira, como exemplo será utilizado o ip **192.168.1.10**:
 
 ```
 # The address to bind to
 WILDFLY_BIND=192.168.1.10
 ```
+
+
+
