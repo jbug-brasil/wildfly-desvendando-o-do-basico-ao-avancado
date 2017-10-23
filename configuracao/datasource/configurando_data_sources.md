@@ -35,7 +35,7 @@
             </driver>
         </drivers>
   </datasources>
- 
+
 </subsystem>
 ```
 
@@ -55,7 +55,6 @@ $ deploy driver-jdbc.jar
 ```
 WFLYJCA0018: Started Driver service with driver-name = jdbc-driver.jar_com.sua.classe.jdbc
 ```
-
 
 ## Instalando driver JDBC como módulo
 
@@ -80,9 +79,10 @@ module add --name=com.mysql --resources=/caminho/do/mysql-connector-java-5.1.36-
 ```
 
 * Ao executar o comando anterior, o Wildfly irá:
-    * Criar um subdiretório WILDFLY_HOME/modules/com/seu/modulo/jdbc/main
-    * Copiar o JAR dentro desse diretório
-    * Criar um arquivo _module.xml_ contendo a configuração para o módulo (Veja a seção [Adicionando um módulo customizado](../classloader/modulo_customizado.html#adicionando-um-módulo-customizado) para maiores detalhes)
+
+  * Criar um subdiretório WILDFLY\_HOME/modules/com/seu/modulo/jdbc/main
+  * Copiar o JAR dentro desse diretório
+  * Criar um arquivo _module.xml_ contendo a configuração para o módulo \(Veja a seção [Adicionando um módulo customizado](../classloader/modulo_customizado.html#adicionando-um-módulo-customizado) para maiores detalhes\)
 
 * Conecte-se à instância do Wildfly com o seguinte comando:
 
@@ -107,7 +107,7 @@ Um exemplo para adicionar o Driver JDBC do MySQL seria:
 * Crie um diretório temporário para hospedar os arquivos.
 * Crie dentro desse diretório um subdiretório _META-INF/services_
 * Dentro do subdiretório _META-INF/services_, crie um arquivo chamado _java.sql.Driver_
-* Abra o arquivo e escreva em uma única linha o nome completo da classe com o seu pacote(denominado Fully-Qualified Class Name). Exemplo para o Driver do MySQL;
+* Abra o arquivo e escreva em uma única linha o nome completo da classe com o seu pacote\(denominado Fully-Qualified Class Name\). Exemplo para o Driver do MySQL;
 
 ```
 com.mysql.jdbc.Driver
@@ -118,3 +118,6 @@ com.mysql.jdbc.Driver
 ```bash
 $ jar \-uf driver-jdbc.jar META-INF/services/java.sql.Driver
 ```
+
+
+
