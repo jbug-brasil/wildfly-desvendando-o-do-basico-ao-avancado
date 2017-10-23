@@ -58,3 +58,21 @@ Além da configuração manual no XML, é possível também alterar os Socket-Bi
 ```
 /host=master/server-config=server-two/:write-attribute(name=socket-binding-port-offset,value=250)
 ```
+
+## Interfaces
+
+Interfaces são denominações lógicas para interfaces de rede que irão se associar aos sockets \(ver próxima seção\) para expor algum serviço de rede para os Subsystems. As Interfaces podem associar os sockets para um IP em específico ou até mesmo para uma NIC[^2] da máquina física, permitindo então dedicar o tráfego de rede dos Subsystems do Wildfly passar por uma interface específica de rede. Abaixo temos um exemplo de Interfaces:
+
+```xml
+    <interfaces>
+        <interface name="public">
+            <inet-address value="${jboss.bind.address:127.0.0.1}"/>
+        </interface>
+        <interface name="internal">
+            <nic name="eth1"/>
+        </interface>
+    </interfaces>
+```
+
+
+

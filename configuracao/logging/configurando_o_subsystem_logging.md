@@ -18,10 +18,10 @@
 
 ```xml
 <dependency>
-	<groupId>org.jboss.logging</groupId>
-	<artifactId>jboss-logging</artifactId>
-	<version>3.3.0.Final-redhat-1</version>
-	<scope>provided</scope>
+    <groupId>org.jboss.logging</groupId>
+    <artifactId>jboss-logging</artifactId>
+    <version>3.3.0.Final-redhat-1</version>
+    <scope>provided</scope>
 </dependency>
 ```
 
@@ -51,3 +51,6 @@ LOGGER.fatal("fatal");
 ```
 
 ## Visualizando arquivos de log
+
+
+
