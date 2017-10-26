@@ -22,13 +22,6 @@ Estamos no IRC: _\#jbug-brasil_ no freenode e [jboss.org](https://developer.jbos
 
 E também no telegram, grupo JBug Brasil, sinta-se a vontade para entrar no grupo através dete [convite](https://t.me/jbug_brasil).
 
-## Agradecimentos
-
-Agradecemos os seguintes contribuidores para elaboração deste livro:
-
-{% GitHubContributors %}
-{% endGitHubContributors %}
-
 ## Erros? :-\)
 
 Achou algum erro de qualquer espécie ou até mesmo algum conteúdo que você não concorde? Sinta-se a vontade para corrigir ou enviar sugestões.
