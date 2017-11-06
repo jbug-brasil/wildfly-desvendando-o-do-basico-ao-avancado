@@ -18,11 +18,11 @@ Utilize o GitHub para realizar fork deste livro e efetuar suas alterações. Mai
 
 ## Comunidade
 
-Estamos no IRC: _\#jbug-brasil_ no freenode e [jboss.org](https://developer.jboss.org/groups/jbug-brasil).
+Estamos no IRC: No freenode, canal _\#jbug-brasil_ e [jboss.org](https://developer.jboss.org/groups/jbug-brasil).
 
-E também no telegram, grupo JBug Brasil, sinta-se a vontade para entrar no grupo através dete [convite](https://t.me/jbug_brasil).
+E também no telegram, grupo JBug Brasil, sinta-se a vontade para entrar no grupo através deste [convite](https://t.me/jbug_brasil).
 
-## Erros? :-\)
+## Erros/Sugestões? :-\)
 
 Achou algum erro de qualquer espécie ou até mesmo algum conteúdo que você não concorde? Sinta-se a vontade para corrigir ou enviar sugestões.
 
