@@ -1,0 +1,4 @@
+br/com/jbugbrasil/bot/api/conf/systemproperties/BotPropertyProducerBean.class
+br/com/jbugbrasil/bot/api/spi/CommandProvider.class
+br/com/jbugbrasil/bot/api/spi/PluginProvider.class
+br/com/jbugbrasil/bot/api/conf/systemproperties/BotProperty.class

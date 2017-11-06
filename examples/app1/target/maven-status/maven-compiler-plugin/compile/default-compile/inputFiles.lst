@@ -1,0 +1,4 @@
+/dados/dev/sources/jbug-brasil/bots/jbugbrasil-telegram-bot/telegram-api/spi/src/main/java/br/com/jbugbrasil/bot/api/spi/CommandProvider.java
+/dados/dev/sources/jbug-brasil/bots/jbugbrasil-telegram-bot/telegram-api/spi/src/main/java/br/com/jbugbrasil/bot/api/conf/systemproperties/BotProperty.java
+/dados/dev/sources/jbug-brasil/bots/jbugbrasil-telegram-bot/telegram-api/spi/src/main/java/br/com/jbugbrasil/bot/api/spi/PluginProvider.java
+/dados/dev/sources/jbug-brasil/bots/jbugbrasil-telegram-bot/telegram-api/spi/src/main/java/br/com/jbugbrasil/bot/api/conf/systemproperties/BotPropertyProducerBean.java
