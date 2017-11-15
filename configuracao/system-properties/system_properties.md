@@ -80,13 +80,80 @@ $WFLY_HOME/bin/standalone.sh -Dminha.propriedade=meu_valor
 
 ## Utilizando System Properties no modo Domain
 
-System Properties é muito útil em ambientes utilizando o modo Domain, pois é possível configurar o escopo das System Properties das seguintes formas:
+System Properties são muito úteis em ambientes utilizando o modo Domain, pois é possível configurar o escopo das System Properties das seguintes formas:
 
-* Geral \(Aplica a todos os servidores daquele ambiente\)
-* Server Group \(Aplica aos servidores daquele Server Group específico\)
-* Server \(Aplica-se em uma única instância\)
+* **Geral** \(Aplica a todos os servidores daquele ambiente\):
+
+
+  ```
+  [domain@localhost:9990 /] /system-property=minha.propriedade:add(value=test)
+  {
+      "outcome" => "success",
+      "result" => undefined,
+      "server-groups" => {
+          "main-server-group" => {"host" => {"master" => {
+              "server-one" => {"response" => {"outcome" => "success"}},
+              "server-two" => {"response" => {"outcome" => "success"}}
+          }}},
+          "other-server-group" => {"host" => {"master" => {"server-three" => {"response" => {"outcome" => "success"}}}}}
+      }
+  }
+
+  ```
+
+
+  E se verificarmos em um dos servidores gerenciados, como por exemplo o _server-one _que pertence ao grupo de servidores _main-server-group _ a propriedade de sistema estará presente neste servidor, e também no _server-three_:
+
+
+  ```
+  [domain@localhost:9990 /] /host=master/server=server-one/system-property=minha.property:read-resource
+  {
+      "outcome" => "success",
+      "result" => {"value" => "test"}
+  }
+
+  [domain@localhost:9990 /] /host=master/server=server-three/system-property=minha.property:read-resource
+  {
+      "outcome" => "success",
+      "result" => {"value" => "test"}
+  }
+  ```
+
+
+
+* **Server Group** \(Aplica aos servidores daquele Server Group específico\), neste caso outra propriedade de sistema será adicionada para validar a configuração:
+
+
+  ```
+  [domain@localhost:9990 /] /server-group=other-server-group/system-property=other.server.group:add(value="Outra Grupo de Servidores")
+  {
+      "outcome" => "success",
+      "result" => undefined,
+      "server-groups" => {"other-server-group" => {"host" => {"master" => {"server-three" => {"response" => {"outcome" => "success"}}}}}}
+  }
+  ```
+
+  
+  Note que esta propriedade de sistema estará disponíveis somente para servidores gerenciados membros do grupo de servidores _other-server-group_. Note que ela não está disponível no _server-one_:
+
+  ```
+  [domain@localhost:9990 /] /host=master/server=server-one/system-property=minha.property:read-resource
+  {
+      "outcome" => "success",
+      "result" => {"value" => "test"}
+  }
+  ```
+
+
+
+* **Server** \(Aplica-se em uma única instância ou servidor gerenciado\), será adicionada uma nova propriedade de sistema no servidor _server-one_: VERIFICAR DEPOIS, 
+  /host=master/server=server-one/system-property=test:
+
+
 
 No caso de haver uma System Property em mais de um escopo, prevalece aquele que é mais específico. Ou seja, havendo a mesma System Property Geral e no Server Group, prevalece a do Server Group, da mesma forma que se houver a mesma System Property no Server Group e no Server, prevalece a do Server.
+
+## Manipulando System Properties em uma Aplicação Java
 
 [^4]: Expression Language
 
