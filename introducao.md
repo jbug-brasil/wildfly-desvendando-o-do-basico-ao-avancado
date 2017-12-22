@@ -69,8 +69,6 @@ Os principais motivos para utilizar o Wildfly são:
 
 O livro irá trazer uma breve introdução ao Wildfly, sua arquitetura e depois mostraremos algumas das tarefas administrativas que podem ser feitas para configurar os componentes do Java EE, bem como fazer o _deployment_ de aplicações Java EE dentro do Wildfly.
 
-
-
 > Observação: Todos as aplicações de exemplo utilizadas no decorrer do livro estão disponíveis no [GitHub.](https://github.com/jbug-brasil/wildfly-desvendando-o-do-basico-ao-avancado/tree/master/exemplos)
 
 
